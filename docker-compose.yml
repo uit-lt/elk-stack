@@ -1,5 +1,5 @@
 networks:
-  elastic:
+  elk:
     driver: bridge
 
 volumes:
@@ -20,7 +20,7 @@ services:
       - "${ELASTICSEARCH_HTTP_PORT:-9200}:9200"
       - "${ELASTICSEARCH_TRANSPORT_PORT:-9300}:9300"
     networks:
-      - elastic
+      - elk
     volumes:
       - elasticsearch:/var/lib/elasticsearch/data
     ulimits:
@@ -41,4 +41,14 @@ services:
     depends_on:
       - elasticsearch
     networks:
-      - elastic
+      - elk
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:${LOGSTASH_VERSION:-8.14.3}
+    container_name: "logstash"
+    ports:
+      - "${LOGSTASH_PORT:-5044}:5044"
+    depends_on:
+      - elasticsearch
+    networks:
+      - elk
