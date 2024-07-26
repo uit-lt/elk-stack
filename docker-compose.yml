@@ -10,7 +10,7 @@ services:
   ## ELASTICSEARCH SERVICE
   elasticsearch:
     container_name: "elasticsearch"
-    image: "docker.elastic.co/elasticsearch/elasticsearch:${ELASTICSEARCH_VERSION:-8.14.3}"
+    image: "docker.elastic.co/elasticsearch/elasticsearch:${ELASTIC_VERSION:-8.14.3}"
     environment:
       - discovery.type=${ELASTICSEARCH_DISCOVERY_TYPE:-single-node}
       - xpack.security.enabled=${ELASTICSEARCH_XPACK_SECURITY_ENABLED:-false}
@@ -34,7 +34,7 @@ services:
       retries: 5
 
   kibana:
-    image: docker.elastic.co/kibana/kibana:${KIBANA_VERSION:-8.14.3}
+    image: docker.elastic.co/kibana/kibana:${ELASTIC_VERSION:-8.14.3}
     container_name: "kibana"
     ports:
       - "${KIBANA_PORT:-5601}:5601"
@@ -44,10 +44,18 @@ services:
       - elk
 
   logstash:
-    image: docker.elastic.co/logstash/logstash:${LOGSTASH_VERSION:-8.14.3}
+    build:
+      context: logstash
+      args:
+        ELASTIC_VERSION: ${ELASTIC_VERSION:-8.14.3}
     container_name: "logstash"
+    environment:
+      LS_JAVA_OPTS: ${LS_JAVA_OPTS:-"-Xms512m -Xmx512m"}
     ports:
       - "${LOGSTASH_PORT:-5044}:5044"
+      - "${LOGSTASH_TCP_PORT:-50000}:50000/tcp"
+      - "${LOGSTASH_UDP_PORT:-50000}:50000/udp"
+      - "${LOGSTASH_HTTP_PORT:-9600}:9600"
     depends_on:
       - elasticsearch
     networks:
