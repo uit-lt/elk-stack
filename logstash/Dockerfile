@@ -1,3 +1,3 @@
-ARG ELASTIC_VERSION
+ARG STACK_VERSION
 
-FROM docker.elastic.co/logstash/logstash:${ELASTIC_VERSION}
+FROM docker.elastic.co/logstash/logstash:${STACK_VERSION}
