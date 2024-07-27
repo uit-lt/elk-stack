@@ -2,4 +2,4 @@ http.host: 0.0.0.0
 node.name: ${NODE_NAME}
 path.config: /usr/share/logstash/pipeline
 xpack.monitoring.elasticsearch.hosts:
-- localhost:9200
+- http://elasticsearch:9200

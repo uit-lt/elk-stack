@@ -19,6 +19,7 @@ services:
       - xpack.security.enrollment.enabled=${ELASTICSEARCH_XPACK_SECURITY_ENROLLMENT_ENABLED:-false}
       - ES_JAVA_OPTS=${ELASTICSEARCH_JAVA_OPTS}
       - bootstrap.memory_lock=true
+      - ELASTIC_PASSWORD=${ELASTIC_PASSWORD}
     ports:
       - "${ELASTICSEARCH_HTTP_PORT:-9200}:9200"
       - "${ELASTICSEARCH_TRANSPORT_PORT:-9300}:9300"
@@ -46,13 +47,14 @@ services:
     environment:
       NODE_NAME: "logstash"
       LS_JAVA_OPTS: "${LS_JAVA_OPTS}"
+      ELASTIC_USERNAME: "elastic"
+      ELASTIC_PASSWORD: "${ELASTIC_PASSWORD}"
+      ELASTIC_HOSTS: "http://elasticsearch:9200"
     volumes:
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
       - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
     ports:
-      - "${LOGSTASH_PORT:-5044}:5044"
       - "${LOGSTASH_TCP_PORT:-5000}:5000"
-      - "${LOGSTASH_HTTP_PORT:-9600}:9600"
     command: logstash -f /usr/share/logstash/pipeline/logstash.conf
     depends_on:
       - elasticsearch
@@ -68,6 +70,8 @@ services:
       - cluster.name=elasticsearch-cluster
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
       - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - ELASTICSEARCH_USERNAME=kibana_system
+      - ELASTICSEARCH_PASSWORD=${KIBANA_PASSWORD}
     ports:
       - "${KIBANA_PORT:-5601}:5601"
     depends_on:
