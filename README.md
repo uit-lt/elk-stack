@@ -60,3 +60,99 @@ To run as amd64. You need to set the default platform to `linux/amd64`:
 ```shell
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
+
+## Usage
+
+### Import Data into Elasticsearch using Logstash
+
+This is an example of how to import data (csv file) into Elasticsearch using Logstash:
+
+1. Create a `logstash.conf` file with the following content:
+
+```conf
+input {
+  file {
+    path => "/usr/share/logstash/data/employees.csv"
+    start_position => "beginning"
+    sincedb_path => "/dev/null"
+  }
+}
+
+filter {
+  csv {
+    separator => ","
+    columns => ["id", "name", "code", "salary"]
+  }
+
+  mutate {
+    convert => {
+      "id" => "integer"
+      "name" => "string"
+      "code" => "integer"
+      "salary" => "float"
+    }
+  }
+}
+
+output {
+  elasticsearch {
+    hosts => "${ELASTIC_HOSTS}"
+    user => "elastic"
+    password => "${ELASTIC_PASSWORD}"
+    index => "employees"
+  }
+  stdout { codec => rubydebug }
+}
+```
+
+> Note:
+> - The `logstash.conf` file reads data from the `employees.csv` file and imports it into Elasticsearch.
+> - The `employees.csv` file should be placed in the `logstash/data` directory.
+> - The `ELASTIC_HOSTS` and `ELASTIC_PASSWORD` environment variables are used to connect to Elasticsearch.
+> - The `employees` index is created in Elasticsearch.
+> - The `rubydebug` codec is used to output the data to the console.
+> - The `sincedb_path` is set to `/dev/null` to avoid saving the state of the file.
+
+2. Create a `employees.csv` file with the following content:
+
+```csv
+id,name,code,salary
+1,Alice,1001,50000
+2,Bob,1002,60000
+3,Charlie,1003,70000
+4,Dave,1004,80000
+5,Eve,1005,90000
+```
+
+3. Update docker-compose.yml to include the Logstash service:
+
+```yml
+logstash:
+  image: docker.elastic.co/logstash/logstash:${STACK_VERSION}
+  container_name: logstash
+  volumes:
+    - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
+    - ./logstash/data/employees.csv:/usr/share/logstash/data/employees.csv # Add this line
+  ...
+```
+
+4. Start the Logstash service:
+
+```shell
+docker-compose up -d logstash
+```
+
+5. Accessing the Elasticsearch API
+
+You can access the Elasticsearch API using `curl` or tools like Postman. Here are some examples:
+
+```shell
+curl -X GET "localhost:9200/employees/_search?pretty"
+```
+
+> Note: 
+> - Replace `employees` with the name of the index you want to query.
+> - Change the port number if you have modified the `ELASTICSEARCH_HTTP_PORT` in the `.env` file.
+
+**_Check this branch to see the full example_: [[feat/import-csv-with-logstash/docker-compose](https://github.com/tanhongit/docker-elasticsearch-logstash-kibana/blob/feat/import-csv-with-logstash/logstash/logstash.conf)]**
