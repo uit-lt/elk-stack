@@ -2,7 +2,7 @@
 
 Containerized Elastic Stack (Elasticsearch, Logstash, and Kibana) with Docker Compose.
 
-## Welcome to the **Elastic Stack** Docker images 🐳
+## 🐳 Welcome to the **Elastic Stack** Docker images 🐳
 
 This repository contains the source for building an immutable Docker image for the Elastic Stack. The images are published on [Docker Hub](https://hub.docker.com/u/elastic) and can be used as the base image for running the Elastic Stack in a containerized environment.
 
@@ -11,7 +11,7 @@ This repository contains the source for building an immutable Docker image for t
 - [Docker Engine](https://docs.docker.com/install/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
-## Configuration
+## 🛠️ Configuration
 
 The Elastic Stack services can be configured using environment variables in the `.env` file. The following variables are available:
 
@@ -23,7 +23,7 @@ The Elastic Stack services can be configured using environment variables in the 
 - `ELASTICSEARCH_JAVA_OPTS`: The Java options for Elasticsearch. The default value is `-Xmx1g -Xms1g`.
 - `LS_JAVA_OPTS`: The Java options for Logstash. The default value is `-Xmx1g -Xms1g`.
 
-## Quick Start
+## 🛩️ Quick Start
 
 To get started, please clone this repository to the local machine:
 
@@ -53,7 +53,7 @@ docker-compose up -d
 
 Access the Kibana web interface by navigating to [http://localhost:5601](http://localhost:5601) in a web browser. (Use your custom `KIBANA_PORT` if you have changed it in the `.env` file.)
 
-## Start in Mac with arm64
+## 💻 Start in Mac with arm64
 
 To run as amd64. You need to set the default platform to `linux/amd64`:
 
@@ -61,7 +61,7 @@ To run as amd64. You need to set the default platform to `linux/amd64`:
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
-## Usage
+## 🏂 Usage
 
 ### Import Data into Elasticsearch using Logstash
 
@@ -124,17 +124,26 @@ id,name,code,salary
 5,Eve,1005,90000
 ```
 
-3. Update docker-compose.yml to include the Logstash service:
+3. Update **docker-compose.yml** to include the Logstash service:
 
 ```yml
-logstash:
-  image: docker.elastic.co/logstash/logstash:${STACK_VERSION}
-  container_name: logstash
-  volumes:
-    - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
-    - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
-    - ./logstash/data/employees.csv:/usr/share/logstash/data/employees.csv # Add this line
-  ...
+  logstash:
+    build:
+      context: logstash
+      args:
+        STACK_VERSION: ${STACK_VERSION:-8.14.3}
+    container_name: "${COMPOSE_PROJECT_NAME}-logstash"
+    environment:
+      NODE_NAME: "logstash"
+      LS_JAVA_OPTS: "${LS_JAVA_OPTS}"
+      ELASTIC_USERNAME: "elastic"
+      ELASTIC_PASSWORD: "${ELASTIC_PASSWORD}"
+      ELASTIC_HOSTS: "http://elasticsearch:9200"
+    volumes:
+      - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+      - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./logstash/data/employees.csv:/usr/share/logstash/data/employees.csv # Add this line
+      ...
 ```
 
 4. Start the Logstash service:
@@ -151,8 +160,8 @@ You can access the Elasticsearch API using `curl` or tools like Postman. Here ar
 curl -X GET "localhost:9200/employees/_search?pretty"
 ```
 
-> Note: 
+> Note:
 > - Replace `employees` with the name of the index you want to query.
 > - Change the port number if you have modified the `ELASTICSEARCH_HTTP_PORT` in the `.env` file.
 
-**_Check this branch to see the full example_: [[feat/import-csv-with-logstash/docker-compose](https://github.com/tanhongit/docker-elasticsearch-logstash-kibana/blob/feat/import-csv-with-logstash/logstash/logstash.conf)]**
+❤️‍🔥 **_Check this branch to see the full example_: [[feat/import-csv-with-logstash/docker-compose](https://github.com/tanhongit/docker-elasticsearch-logstash-kibana/blob/feat/import-csv-with-logstash/logstash/logstash.conf)]** ❤️‍🔥
