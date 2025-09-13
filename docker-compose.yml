@@ -117,3 +117,18 @@ services:
       - "${SPARK_WORKER_UI_PORT:-8081}:8081"
     networks:
       - elk
+
+  spark-worker-2:
+    image: bitnami/spark:3.5
+    container_name: spark-worker-2
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+    depends_on:
+      - spark-master
+    volumes:
+      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+    ports:
+      - "${SPARK_WORKER_UI_PORT_2:-8082}:8081"
+    networks:
+      - elk
