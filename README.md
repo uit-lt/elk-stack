@@ -60,6 +60,11 @@ To run as amd64. You need to set the default platform to `linux/amd64`:
 ```shell
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
+### For x86_64/amd64 systems (Linux/Windows)
+The default configuration is set for `linux/amd64`. No changes needed.
+
+### For ARM64 systems (Mac M1/M2, ARM servers)
+If you encounter `exec /bin/tini: exec format error`, you need to change the platform: `platform: ${PLATFORM:-linux/arm64}`
 
 ## 🏂 Usage
 
