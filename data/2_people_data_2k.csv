@@ -1,0 +1,2001 @@
+id,name,age
+1,Phạm Thế Châu,41
+2,Hoàng Nhiên,24
+3,Lê Thảo,46
+4,Trần Duy Hà,56
+5,Mai Hương,35
+6,Vũ Hải,61
+7,Đặng Hà,32
+8,Vũ Thảo,49
+9,Trần Khoa,77
+10,Nguyễn An,27
+11,Phạm Phúc,68
+12,Bùi Mai,78
+13,Đặng Duy Dũng,39
+14,Vũ Trí Hải,30
+15,Hoàng Hà,55
+16,Vũ Kim,24
+17,Lê Hạnh,38
+18,Nguyễn Châu,29
+19,Nguyễn Bảo Vũ,64
+20,Vũ Linh,65
+21,Đặng Mai Phương,27
+22,Dương Bảo Phương,69
+23,Lê Hương,34
+24,Dương Duy Nhiên,68
+25,Nguyễn An,45
+26,Vũ Thảo,28
+27,Dương Khoa,40
+28,Phạm Hữu Nhật,43
+29,Mai Kim,39
+30,Nguyễn Tấn Nam,19
+31,Dương Mai,49
+32,Vũ Mai Lâm,69
+33,Bùi Xuân,34
+34,Nguyễn Văn An,32
+35,Phạm Tấn Hà,26
+36,Đặng Ánh,32
+37,Phạm Tùng,50
+38,Lê Hồng,77
+39,Nguyễn Bảo,56
+40,Nguyễn Nhật,62
+41,Hoàng Linh,29
+42,Trần Phú Thành,77
+43,Lê Đức Thành,59
+44,Bùi Đức Hạnh,19
+45,Nguyễn Yến,36
+46,Mai Phú Minh,63
+47,Lê Lâm,71
+48,Bùi Đức Khoa,53
+49,Vũ Hữu Thành,70
+50,Mai Hữu Anh,49
+51,Nguyễn Hải Phương,33
+52,Nguyễn Xuân Nhật,19
+53,Phạm Phương,68
+54,Bùi Thảo,59
+55,Phạm Linh,71
+56,Bùi Thành,38
+57,Đặng Trọng,41
+58,Trần Văn Hải,51
+59,Trần Anh,67
+60,Nguyễn Bảo Hạnh,76
+61,Nguyễn Đức Hạnh,30
+62,Dương Phú Tú,34
+63,Đặng Thảo,47
+64,Dương Mai,28
+65,Bùi Huy,71
+66,Vũ Đức Bảo,79
+67,Phạm Bảo Nhật,18
+68,Dương Duy Vũ,21
+69,Hoàng Ngọc,72
+70,Vũ Kim,79
+71,Bùi Thành,53
+72,Lê Tấn Châu,44
+73,Bùi Nhật,58
+74,Vũ Văn Trọng,18
+75,Hoàng Hữu Kim,20
+76,Lê Khoa,52
+77,Trần Xuân Khoa,58
+78,Phạm Phú Hoàng,57
+79,Lê Tấn Huy,69
+80,Hoàng Hữu Bảo,65
+81,Đặng Đức Thành,60
+82,Vũ Văn Anh,60
+83,Lê Quang Trọng,43
+84,Dương Hưng,56
+85,Dương Hạnh,18
+86,Bùi Xuân Châu,42
+87,Dương An,38
+88,Nguyễn Hữu Dũng,41
+89,Phạm Chi,41
+90,Trần Quang,46
+91,Nguyễn Tú,37
+92,Đặng Hải,63
+93,Hoàng Thế Tùng,66
+94,Dương Bảo,59
+95,Nguyễn Thế Anh,80
+96,Đặng Quang An,59
+97,Vũ An,70
+98,Lê Tấn Thành,72
+99,Trần Quang Phương,64
+100,Vũ Lâm,53
+101,Hoàng Trọng,49
+102,Phạm Xuân Khoa,49
+103,Trần Hà,45
+104,Lê Hải,75
+105,Bùi Trí Phúc,22
+106,Hoàng Linh,46
+107,Bùi Phú Châu,58
+108,Hoàng Bảo,61
+109,Mai Nhật,80
+110,Bùi Văn Tùng,70
+111,Nguyễn Trọng,65
+112,Hoàng Minh,52
+113,Dương Tấn Khoa,26
+114,Lê Hạnh,37
+115,Nguyễn Bảo Trung,50
+116,Vũ Văn Bảo,59
+117,Hoàng Hà,34
+118,Bùi Hồng,78
+119,Mai Trí Tùng,52
+120,Vũ Kim,19
+121,Dương Đức Bảo,72
+122,Lê Quang Khoa,73
+123,Bùi Quang Nam,29
+124,Bùi Lâm,75
+125,Vũ Trọng,24
+126,Lê Nhiên,20
+127,Lê Xuân Hải,80
+128,Dương Hải An,26
+129,Lê Vân,43
+130,Dương Tấn Khoa,67
+131,Trần Mai Trọng,60
+132,Mai Thế An,25
+133,Vũ Thảo,22
+134,Hoàng Quang An,34
+135,Hoàng Chi,60
+136,Dương Bảo,34
+137,Đặng Lâm,51
+138,Dương Tấn Trọng,63
+139,Vũ Khoa,54
+140,Vũ Hải,66
+141,Phạm Quang,75
+142,Lê Phú Phúc,75
+143,Mai Hà,51
+144,Mai Kim,34
+145,Vũ Trí Nhiên,29
+146,Đặng Đức Hải,78
+147,Đặng Tấn Hà,45
+148,Hoàng An,73
+149,Mai Dương,65
+150,Phạm Dương,47
+151,Đặng Đức Thành,22
+152,Đặng Đức Nhiên,30
+153,Nguyễn Anh,48
+154,Bùi Huy,42
+155,Bùi Kim,36
+156,Dương Dương,40
+157,Hoàng Đức Khoa,41
+158,Mai Trí Trọng,78
+159,Hoàng Trí Trung,75
+160,Vũ Minh,48
+161,Nguyễn Hà,79
+162,Trần Hà,48
+163,Lê Hà,34
+164,Nguyễn Đức Nhật,45
+165,Mai Bảo Hưng,53
+166,Đặng Quang,18
+167,Dương Thành,65
+168,Lê Khoa,24
+169,Phạm Bảo,29
+170,Mai Trí Khoa,33
+171,Trần Kim,35
+172,Bùi Linh,21
+173,Đặng Bảo Phương,30
+174,Bùi Tấn Quang,28
+175,Đặng An,55
+176,Mai Xuân Thành,44
+177,Vũ Bảo,70
+178,Phạm Lan,75
+179,Trần Xuân Trọng,24
+180,Bùi Đức Tùng,47
+181,Bùi Mai Phúc,41
+182,Nguyễn Xuân Nhật,18
+183,Phạm Lâm,34
+184,Mai Trung,18
+185,Trần Bảo,49
+186,Nguyễn Hải,37
+187,Vũ Tấn Thành,53
+188,Dương Đức Nhật,67
+189,Vũ Hải Bảo,29
+190,Mai Hoàng,36
+191,Vũ Bảo Hải,67
+192,Trần Thế Trọng,56
+193,Hoàng Chi,37
+194,Lê Hà,51
+195,Bùi Ngọc,22
+196,Lê Tấn Huy,35
+197,Trần Thành,56
+198,Hoàng Dũng,42
+199,Phạm Dũng,59
+200,Đặng Dương,61
+201,Bùi Khoa,60
+202,Đặng Lan,33
+203,Hoàng Bảo,44
+204,Hoàng Phúc,56
+205,Phạm Bảo Vũ,38
+206,Trần Phương,76
+207,Lê Trọng,27
+208,Nguyễn An,19
+209,Phạm Quang Châu,76
+210,Nguyễn Chi,40
+211,Bùi An,59
+212,Đặng Vũ,30
+213,Trần Đức Huy,36
+214,Đặng Khoa,48
+215,Vũ Bảo Tùng,20
+216,Hoàng Hoàng An,30
+217,Vũ An,30
+218,Hoàng Hưng,62
+219,Đặng Lâm,74
+220,Hoàng Anh,70
+221,Trần Đức Kim,22
+222,Dương Vi,75
+223,Đặng Hoàng An,38
+224,Lê Châu,32
+225,Trần Tú,22
+226,Lê Mai An,18
+227,Bùi Xuân Khoa,21
+228,Bùi Mai Nam,25
+229,Mai Văn An,32
+230,Hoàng Mai Bảo,60
+231,Dương Tấn Phương,52
+232,Lê Linh,20
+233,Lê Nhật,58
+234,Nguyễn Xuân Nhật,29
+235,Trần Trung,50
+236,Lê Châu,65
+237,Dương Xuân,21
+238,Dương Vi,34
+239,Hoàng Thế An,52
+240,Phạm Xuân Phương,74
+241,Nguyễn Anh,30
+242,Mai Bảo,32
+243,Bùi Hữu Thành,36
+244,Bùi Khoa,76
+245,Mai Xuân Hạnh,34
+246,Bùi Lâm,52
+247,Đặng Nhật,33
+248,Vũ Hoàng,35
+249,Dương Linh,19
+250,Mai Mai Minh,36
+251,Dương Mai Lâm,62
+252,Mai Mai,51
+253,Bùi Thành,18
+254,Dương Vân,28
+255,Vũ Đức Hưng,72
+256,Mai Châu,40
+257,Phạm Hoàng,67
+258,Hoàng Quang,45
+259,Hoàng Bảo,29
+260,Lê Đức Khoa,44
+261,Dương Trí Lâm,56
+262,Vũ Bảo,78
+263,Đặng Ngọc,72
+264,Phạm Bảo Minh,47
+265,Nguyễn Bảo,50
+266,Trần Vũ,62
+267,Đặng Hải Trọng,55
+268,Dương Đức Bảo,42
+269,Bùi Vân,26
+270,Vũ Bảo,63
+271,Trần Vi,37
+272,Đặng Văn Thành,33
+273,Hoàng Đức Hạnh,44
+274,Nguyễn Anh,18
+275,Lê Duyên,46
+276,Vũ Lan,41
+277,Hoàng Hưng,60
+278,Bùi Phương,63
+279,Vũ Quang,39
+280,Đặng Hải An,47
+281,Hoàng Xuân,29
+282,Bùi Chi,30
+283,Trần Yến,29
+284,Vũ Hải Hưng,51
+285,Bùi Dương,26
+286,Phạm Mai,18
+287,Mai Trọng,53
+288,Đặng Duyên,57
+289,Phạm Mai,72
+290,Vũ Tùng,75
+291,Phạm Mai Tùng,23
+292,Đặng Tấn Phương,77
+293,Đặng Xuân Minh,73
+294,Phạm Phương,80
+295,Dương Đức Hải,30
+296,Phạm Hữu Bảo,31
+297,Bùi Vân,64
+298,Hoàng Hà,28
+299,Hoàng Trí Trọng,45
+300,Nguyễn Chi,48
+301,Hoàng Hải Thành,54
+302,Mai Nhật,78
+303,Bùi Bảo Lâm,24
+304,Hoàng An,40
+305,Dương Ánh,67
+306,Hoàng Dũng,58
+307,Vũ Bảo Hạnh,41
+308,Lê Thành,72
+309,Đặng Tú,56
+310,Dương Quang Trọng,49
+311,Bùi Duy Khoa,33
+312,Hoàng Duyên,40
+313,Đặng Dương,55
+314,Dương Duyên,49
+315,Đặng Dũng,60
+316,Mai Lan,76
+317,Vũ Mai Nhiên,53
+318,Vũ Hoàng Dũng,53
+319,Hoàng Đức An,22
+320,Lê Quang,57
+321,Vũ Đức Bảo,73
+322,Đặng Khoa,72
+323,Bùi Quang Khoa,70
+324,Trần Nhật,36
+325,Vũ Hoàng Hải,45
+326,Vũ Quang Nhật,23
+327,Dương Ngọc,58
+328,Trần Nhiên,34
+329,Trần Phương,26
+330,Lê Hải,76
+331,Đặng Hạnh,24
+332,Hoàng Hữu Thành,74
+333,Vũ Ánh,80
+334,Bùi Khoa,76
+335,Trần Bảo Khoa,27
+336,Bùi Anh,75
+337,Trần Bảo,20
+338,Vũ Xuân,63
+339,Vũ Xuân Thành,29
+340,Trần Hạnh,37
+341,Lê Ánh,43
+342,Lê Hoàng Kim,20
+343,Trần Kim,50
+344,Bùi Hữu Lâm,49
+345,Vũ Hà,69
+346,Vũ Thế Hoàng,72
+347,Phạm Dương,58
+348,Vũ Lâm,26
+349,Lê Nhật,65
+350,Bùi Phương,60
+351,Trần Văn Hạnh,54
+352,Phạm An,69
+353,Nguyễn Ánh,65
+354,Đặng Kim,71
+355,Nguyễn Duy Nam,37
+356,Trần Quang,70
+357,Hoàng Hữu Thành,59
+358,Dương Huy,33
+359,Lê Lâm,47
+360,Nguyễn Ánh,25
+361,Bùi Xuân,33
+362,Hoàng Lan,62
+363,Đặng Tấn Anh,25
+364,Phạm Hoàng An,45
+365,Dương Hạnh,35
+366,Phạm Phú Châu,19
+367,Đặng Thành,54
+368,Trần Mai Bảo,53
+369,Lê Mai Hà,56
+370,Nguyễn Dương,57
+371,Phạm Duy Hưng,60
+372,Trần Hưng,57
+373,Nguyễn Hải,19
+374,Mai Kim,59
+375,Đặng Thành,80
+376,Đặng Quang Tùng,73
+377,Mai Hưng,18
+378,Đặng Đức Kim,40
+379,Vũ Phú Phương,77
+380,Nguyễn Xuân Hoàng,18
+381,Mai Châu,52
+382,Đặng Hưng,62
+383,Đặng Thảo,32
+384,Trần Thành,33
+385,Dương Mai Khoa,47
+386,Đặng Mai Trọng,39
+387,Vũ Xuân Huy,43
+388,Hoàng Nam,39
+389,Vũ Hồng,56
+390,Trần Châu,80
+391,Phạm Huy,42
+392,Vũ Nam,19
+393,Phạm Tú,18
+394,Nguyễn Bảo,67
+395,Nguyễn Châu,51
+396,Trần Ngọc,41
+397,Đặng Thành,64
+398,Trần Duyên,57
+399,Nguyễn Hạnh,66
+400,Trần Văn Thành,73
+401,Mai Phương,20
+402,Trần Hoàng Hà,40
+403,Đặng Xuân An,22
+404,Vũ Hữu An,39
+405,Trần Văn Tùng,42
+406,Mai Linh,70
+407,Lê Minh,70
+408,Lê Trí Tùng,38
+409,Bùi Kim,73
+410,Hoàng Trọng,44
+411,Đặng Thế Hạnh,47
+412,Mai Thế Nhiên,42
+413,Bùi Duy Vũ,33
+414,Phạm Hạnh,68
+415,Bùi Tấn Trung,75
+416,Mai Duy Bảo,77
+417,Nguyễn Xuân Hoàng,73
+418,Trần Thế Châu,59
+419,Nguyễn Anh,56
+420,Hoàng Quang Nhật,37
+421,Lê Vi,32
+422,Bùi Phương,58
+423,Đặng Thế Tú,25
+424,Nguyễn Duy Phúc,76
+425,Dương Vi,63
+426,Lê Vân,28
+427,Mai Đức Nhiên,37
+428,Hoàng Thế Nam,21
+429,Mai Xuân Nam,66
+430,Bùi Khoa,40
+431,Hoàng Đức Nhật,32
+432,Mai Bảo,71
+433,Hoàng Hoàng Lâm,65
+434,Hoàng Quang Thành,68
+435,Nguyễn Nhiên,71
+436,Phạm Hải Hải,52
+437,Trần Linh,75
+438,Phạm Chi,25
+439,Vũ Ánh,22
+440,Trần Vân,29
+441,Lê Đức Trung,64
+442,Đặng Dương,49
+443,Lê Trí Hạnh,76
+444,Phạm Hữu Dũng,64
+445,Phạm Nhật,57
+446,Hoàng Huy,22
+447,Vũ Minh,19
+448,Phạm Linh,52
+449,Mai Tấn Thành,50
+450,Vũ Hải Nam,48
+451,Nguyễn Phú Trung,66
+452,Mai Chi,62
+453,Hoàng Mai Quang,64
+454,Đặng Hồng,38
+455,Lê Đức Quang,22
+456,Bùi Khoa,72
+457,Dương Hải Hà,25
+458,Bùi Hà,69
+459,Đặng Mai Châu,18
+460,Vũ Hoàng Anh,77
+461,Bùi Hoàng Minh,64
+462,Vũ Thành,41
+463,Hoàng Hải,19
+464,Hoàng Hải Dũng,52
+465,Lê Phú Thành,50
+466,Dương Xuân An,37
+467,Hoàng Nhiên,59
+468,Vũ Duy Hạnh,45
+469,Phạm Minh,58
+470,Mai Anh,40
+471,Đặng Vi,22
+472,Đặng Tấn Minh,63
+473,Bùi Anh,26
+474,Đặng Duyên,54
+475,Bùi Dũng,68
+476,Trần Tú,67
+477,Bùi Văn Tùng,57
+478,Dương Hưng,54
+479,Trần Đức Phương,42
+480,Trần Lâm,67
+481,Bùi Văn Hạnh,46
+482,Đặng Khoa,60
+483,Mai Hải Trọng,33
+484,Hoàng Phương,71
+485,Mai Trí Quang,46
+486,Vũ Bảo Trung,71
+487,Mai Bảo,59
+488,Hoàng Văn Thành,53
+489,Dương Quang Tùng,80
+490,Phạm Lâm,21
+491,Mai Đức Hoàng,59
+492,Hoàng Hồng,65
+493,Đặng Bảo,23
+494,Trần Hải Khoa,29
+495,Vũ Xuân Huy,39
+496,Nguyễn Quang,72
+497,Lê An,57
+498,Mai Hà,80
+499,Nguyễn Dũng,20
+500,Nguyễn Thảo,41
+501,Trần Duy Lâm,25
+502,Phạm Lâm,57
+503,Vũ Hữu Hà,72
+504,Lê Hồng,45
+505,Trần Đức Bảo,72
+506,Phạm Thế Thành,70
+507,Vũ Xuân Kim,32
+508,Lê An,22
+509,Dương Khoa,73
+510,Vũ Duy Bảo,72
+511,Phạm Khoa,72
+512,Bùi Linh,33
+513,Bùi Hạnh,51
+514,Mai Phú Khoa,65
+515,Nguyễn Bảo Thành,34
+516,Hoàng Xuân Phương,58
+517,Nguyễn Đức Nhiên,39
+518,Đặng Dương,38
+519,Phạm Thế An,71
+520,Đặng Trung,69
+521,Nguyễn Hạnh,47
+522,Phạm Hạnh,79
+523,Hoàng Bảo Nhật,66
+524,Lê Đức Nam,54
+525,Phạm Tấn Hạnh,75
+526,Đặng Duy Vũ,37
+527,Phạm Xuân Châu,77
+528,Nguyễn Kim,19
+529,Đặng Vũ,19
+530,Mai Vân,59
+531,Dương Ngọc,36
+532,Dương Hạnh,55
+533,Bùi Bảo Phương,48
+534,Mai Tấn Lâm,69
+535,Bùi Vũ,59
+536,Mai Xuân Hải,56
+537,Trần Mai Hoàng,29
+538,Trần Hoàng Nhiên,54
+539,Vũ Xuân,52
+540,Đặng Mai Châu,70
+541,Lê Anh,65
+542,Phạm Thành,48
+543,Phạm Hạnh,72
+544,Trần Yến,68
+545,Đặng Mai,54
+546,Hoàng Tú,35
+547,Dương Hữu Kim,40
+548,Trần Anh,51
+549,Vũ Ánh,77
+550,Bùi Châu,59
+551,Đặng Phú An,24
+552,Mai Ngọc,71
+553,Phạm Khoa,66
+554,Vũ Đức Phương,43
+555,Hoàng Bảo,50
+556,Đặng Phú Trung,44
+557,Lê Hải,33
+558,Mai Vân,47
+559,Phạm Hoàng Hoàng,54
+560,Dương Nhật,74
+561,Hoàng Anh,35
+562,Bùi Hương,54
+563,Dương Quang Nhiên,39
+564,Bùi Xuân Lâm,67
+565,Mai Anh,60
+566,Vũ Châu,76
+567,Bùi Thế Phương,46
+568,Trần Hoàng Hà,55
+569,Đặng Đức Bảo,48
+570,Hoàng Minh,46
+571,Lê Vân,52
+572,Đặng Quang Thành,45
+573,Dương Tùng,24
+574,Hoàng Dũng,28
+575,Hoàng Hoàng Bảo,65
+576,Lê Hưng,63
+577,Nguyễn Vân,23
+578,Dương Xuân Lâm,72
+579,Phạm Mai Bảo,62
+580,Vũ Đức Kim,18
+581,Vũ Khoa,28
+582,Vũ Nhật,40
+583,Trần Chi,47
+584,Bùi Ngọc,38
+585,Dương Anh,26
+586,Vũ Mai Dũng,64
+587,Lê Nhật,30
+588,Bùi Tùng,25
+589,Nguyễn Thành,55
+590,Vũ Vi,45
+591,Mai Duyên,18
+592,Hoàng Quang An,48
+593,Lê Kim,73
+594,Lê Thành,25
+595,Phạm Hữu Châu,77
+596,Bùi Trung,69
+597,Nguyễn Văn Hải,27
+598,Dương Ngọc,24
+599,Mai Hồng,75
+600,Đặng Bảo,25
+601,Phạm Chi,22
+602,Đặng Xuân Kim,18
+603,Vũ Hạnh,80
+604,Vũ Phúc,47
+605,Lê Quang Dũng,61
+606,Bùi Phú Trọng,58
+607,Vũ Trọng,36
+608,Phạm Khoa,50
+609,Vũ Hữu Hưng,18
+610,Dương Phú Hải,41
+611,Đặng Phương,34
+612,Vũ Đức Dũng,27
+613,Nguyễn Xuân Huy,80
+614,Dương Hương,42
+615,Đặng Chi,41
+616,Phạm Xuân Thành,19
+617,Trần Duy Khoa,57
+618,Phạm Hải,25
+619,Trần Lâm,42
+620,Dương Linh,73
+621,Bùi Nhiên,53
+622,Vũ Hà,67
+623,Phạm Anh,48
+624,Đặng Phúc,69
+625,Đặng Khoa,22
+626,Đặng Xuân Kim,32
+627,Vũ Hưng,76
+628,Bùi Thành,26
+629,Lê Tú,41
+630,Phạm Hải Vũ,42
+631,Dương Hạnh,69
+632,Lê Quang Khoa,50
+633,Lê Yến,29
+634,Vũ Bảo,57
+635,Phạm Vân,76
+636,Phạm Phú Thành,19
+637,Đặng Hoàng,40
+638,Hoàng Hải Thành,25
+639,Mai Mai Hoàng,56
+640,Nguyễn Khoa,20
+641,Đặng Bảo Hưng,56
+642,Lê Tấn Lâm,63
+643,Lê Hải Lâm,53
+644,Nguyễn Đức Hạnh,46
+645,Nguyễn Duyên,38
+646,Phạm Trí Nhật,31
+647,Vũ Bảo Nhật,66
+648,Nguyễn Hải,58
+649,Đặng Nam,74
+650,Dương Duy Tú,66
+651,Phạm Chi,38
+652,Nguyễn Minh,38
+653,Lê Vũ,50
+654,Bùi Hải Hà,78
+655,Dương Hữu Vũ,35
+656,Hoàng Tú,37
+657,Trần Yến,78
+658,Hoàng Quang Phương,77
+659,Dương An,46
+660,Mai Dương,70
+661,Vũ Ngọc,44
+662,Dương Đức Hưng,58
+663,Trần Hải,49
+664,Dương Linh,40
+665,Nguyễn Vũ,48
+666,Bùi Phương,61
+667,Vũ Hải Khoa,78
+668,Dương Hoàng Khoa,18
+669,Mai Yến,22
+670,Mai Quang Anh,48
+671,Bùi Anh,76
+672,Hoàng Văn Kim,36
+673,Bùi Thành,35
+674,Đặng Bảo,26
+675,Vũ Bảo Bảo,72
+676,Phạm Lan,24
+677,Phạm Trí Nam,76
+678,Mai Trung,47
+679,Dương Trọng,48
+680,Mai Trí Dũng,44
+681,Vũ Phú Châu,49
+682,Nguyễn Hải Quang,78
+683,Nguyễn Nhật,36
+684,Dương Văn Hải,57
+685,Trần Ngọc,59
+686,Nguyễn Mai,72
+687,Trần Phương,79
+688,Đặng Lâm,74
+689,Bùi Dũng,27
+690,Lê Hạnh,24
+691,Nguyễn Hồng,44
+692,Bùi Trọng,59
+693,Lê Thành,65
+694,Đặng Trọng,26
+695,Hoàng Quang,55
+696,Nguyễn Xuân Kim,18
+697,Hoàng Mai,66
+698,Mai Mai Vũ,38
+699,Bùi Hương,35
+700,Trần An,66
+701,Đặng An,55
+702,Phạm Thế Tú,25
+703,Bùi Minh,64
+704,Vũ Tùng,77
+705,Đặng Anh,67
+706,Lê Hải,65
+707,Dương Đức Thành,58
+708,Mai Mai Thành,64
+709,Trần Quang An,79
+710,Mai Tú,18
+711,Dương Tùng,61
+712,Lê Đức Hưng,80
+713,Trần Nhật,72
+714,Dương Trọng,46
+715,Mai Duyên,60
+716,Hoàng Bảo,76
+717,Mai Hoàng,29
+718,Vũ Đức Trung,34
+719,Lê Phú Khoa,55
+720,Nguyễn Duyên,77
+721,Vũ Hữu Lâm,25
+722,Vũ Kim,30
+723,Mai Văn Vũ,45
+724,Phạm Chi,33
+725,Vũ Xuân Anh,74
+726,Đặng Đức Nhật,74
+727,Hoàng Hạnh,71
+728,Lê Chi,24
+729,Lê Mai An,60
+730,Trần Hoàng,59
+731,Vũ Minh,64
+732,Đặng An,31
+733,Lê Khoa,52
+734,Hoàng Phú Hà,47
+735,Mai Bảo,51
+736,Trần Hà,60
+737,Vũ Kim,51
+738,Nguyễn Khoa,53
+739,Vũ Đức Lâm,36
+740,Nguyễn Bảo,65
+741,Lê Khoa,40
+742,Dương Nhật,30
+743,Hoàng Quang,40
+744,Hoàng Duyên,78
+745,Mai Ngọc,68
+746,Mai Yến,73
+747,Nguyễn Trọng,38
+748,Bùi Văn Thành,34
+749,Dương Kim,79
+750,Trần Khoa,26
+751,Phạm Hạnh,67
+752,Phạm Phương,55
+753,Vũ Thảo,44
+754,Vũ Hữu Lâm,76
+755,Lê Chi,67
+756,Nguyễn Xuân,74
+757,Bùi Duy Bảo,24
+758,Lê Quang Hà,41
+759,Phạm Linh,77
+760,Mai Hồng,29
+761,Lê Nam,31
+762,Lê Trí Nhật,57
+763,Phạm Trí Kim,31
+764,Trần Quang Trọng,67
+765,Nguyễn Hồng,79
+766,Mai Vũ,28
+767,Nguyễn Trung,80
+768,Mai Phú An,27
+769,Nguyễn Hồng,79
+770,Mai Vân,18
+771,Đặng Bảo Bảo,65
+772,Dương Đức Phương,63
+773,Mai Hạnh,19
+774,Dương Xuân,18
+775,Hoàng Hương,38
+776,Nguyễn Phương,75
+777,Vũ Vân,64
+778,Phạm Mai Trung,71
+779,Hoàng Quang Hà,52
+780,Mai Hoàng Nhật,32
+781,Trần Dương,34
+782,Mai Hương,20
+783,Phạm Hoàng,25
+784,Mai Bảo,59
+785,Bùi Nam,38
+786,Bùi Thành,46
+787,Vũ Mai Anh,26
+788,Lê Phương,61
+789,Đặng Mai,18
+790,Dương Hoàng Tùng,51
+791,Hoàng Dũng,67
+792,Nguyễn Phú Kim,64
+793,Dương Lan,38
+794,Vũ Hồng,28
+795,Lê Đức Hạnh,56
+796,Hoàng Chi,63
+797,Lê Thảo,26
+798,Lê Linh,27
+799,Hoàng Quang Tùng,27
+800,Bùi Vi,50
+801,Bùi Duy Dũng,62
+802,Nguyễn Hải Nhiên,32
+803,Trần Hải Tùng,50
+804,Lê Dũng,57
+805,Lê Mai Trung,26
+806,Trần Thành,62
+807,Hoàng Châu,24
+808,Dương Thảo,50
+809,Vũ Châu,55
+810,Lê Trí Huy,47
+811,Nguyễn Ánh,77
+812,Phạm Hữu Hạnh,64
+813,Mai Nhật,43
+814,Đặng Mai,29
+815,Lê Văn Nhật,38
+816,Vũ Phú Kim,58
+817,Lê Nhật,77
+818,Mai Huy,76
+819,Nguyễn Tấn Kim,68
+820,Phạm Hoàng An,69
+821,Đặng Ngọc,18
+822,Trần Huy,37
+823,Nguyễn Hương,39
+824,Mai Hải,41
+825,Phạm Hoàng,75
+826,Hoàng Chi,55
+827,Dương Quang Thành,69
+828,Trần Linh,69
+829,Trần Hoàng Thành,24
+830,Vũ Hoàng Hưng,28
+831,Vũ An,64
+832,Vũ Đức Hưng,35
+833,Nguyễn Hạnh,34
+834,Mai Tấn Anh,67
+835,Vũ Đức Phúc,25
+836,Đặng Hương,32
+837,Phạm Bảo,63
+838,Bùi Phương,71
+839,Trần Thảo,67
+840,Dương Thế Minh,63
+841,Lê Nhiên,53
+842,Nguyễn Phú Hưng,36
+843,Nguyễn Nhật,59
+844,Đặng Hà,49
+845,Phạm Trí Bảo,27
+846,Trần Thế Hải,68
+847,Hoàng Vân,40
+848,Trần Tấn Tùng,65
+849,Phạm Duy Lâm,78
+850,Mai Quang,24
+851,Trần Tấn Trọng,77
+852,Dương Hoàng Phương,71
+853,Lê Tấn Bảo,33
+854,Trần An,24
+855,Dương Xuân Anh,79
+856,Dương Tùng,58
+857,Lê Hải Hưng,59
+858,Dương Hưng,21
+859,Bùi Đức Phương,61
+860,Trần Phương,69
+861,Trần Vũ,29
+862,Mai Duyên,35
+863,Nguyễn Hoàng,72
+864,Mai Hữu Kim,35
+865,Lê Vi,49
+866,Bùi Tú,42
+867,Đặng Quang,50
+868,Đặng Bảo Hải,66
+869,Mai Nhiên,48
+870,Dương Mai,80
+871,Phạm Hải Vũ,74
+872,Dương Hà,20
+873,Nguyễn Phú Tùng,74
+874,Mai Xuân Trung,40
+875,Đặng Đức Trọng,64
+876,Đặng Vân,38
+877,Lê Kim,25
+878,Phạm Nam,77
+879,Hoàng Kim,19
+880,Nguyễn Đức Bảo,41
+881,Mai Duyên,80
+882,Vũ Hải,27
+883,Mai Dương,57
+884,Đặng Nhật,41
+885,Lê Thảo,61
+886,Hoàng Bảo,62
+887,Lê Ánh,56
+888,Mai Trí Hưng,19
+889,Trần Trọng,19
+890,Vũ Văn Hạnh,71
+891,Mai Hương,48
+892,Nguyễn Thế Hạnh,40
+893,Lê Kim,71
+894,Đặng Hà,26
+895,Đặng Khoa,52
+896,Đặng Mai Hoàng,37
+897,Mai Vi,69
+898,Phạm Phú Khoa,80
+899,Trần Ánh,54
+900,Bùi Hữu Hạnh,32
+901,Vũ Mai Bảo,69
+902,Đặng Duy Phúc,68
+903,Hoàng Hữu Lâm,65
+904,Nguyễn Xuân Khoa,35
+905,Hoàng Xuân Hạnh,68
+906,Bùi Thành,74
+907,Mai Hải,59
+908,Nguyễn Phương,34
+909,Lê Đức Phương,52
+910,Mai Duy Minh,20
+911,Dương Hải Bảo,73
+912,Phạm Hồng,65
+913,Đặng Mai,21
+914,Nguyễn Tấn Nhật,76
+915,Mai Ánh,77
+916,Bùi Thế Quang,28
+917,Mai Duyên,34
+918,Vũ Phương,72
+919,Vũ Vũ,72
+920,Đặng Vi,43
+921,Lê Huy,21
+922,Dương Đức Thành,18
+923,Dương Đức Phương,55
+924,Hoàng Nam,30
+925,Trần Xuân,44
+926,Trần Thành,25
+927,Nguyễn Hương,57
+928,Vũ Vũ,30
+929,Mai Hoàng,26
+930,Nguyễn Phương,28
+931,Phạm Văn Lâm,22
+932,Phạm Ngọc,44
+933,Mai Trí Khoa,46
+934,Dương Vi,32
+935,Bùi Yến,24
+936,Dương Lâm,67
+937,Hoàng Tú,20
+938,Trần Hạnh,33
+939,Đặng Bảo,48
+940,Mai Tú,20
+941,Bùi Linh,75
+942,Lê Ngọc,74
+943,Phạm Hoàng,61
+944,Dương Phương,19
+945,Mai Tấn Hải,19
+946,Nguyễn Xuân,32
+947,Phạm Linh,76
+948,Nguyễn Hải,49
+949,Nguyễn Thành,80
+950,Nguyễn Vân,44
+951,Trần Mai,70
+952,Vũ Tú,71
+953,Hoàng Châu,41
+954,Mai Hải Nhật,58
+955,Phạm Ngọc,47
+956,Nguyễn Trí Khoa,36
+957,Phạm Lan,42
+958,Mai Anh,60
+959,Dương Phú Trung,74
+960,Bùi Duy Hạnh,73
+961,Nguyễn Thế Hưng,69
+962,Vũ Phương,33
+963,Đặng Bảo,25
+964,Đặng Đức Khoa,76
+965,Trần Văn Hoàng,64
+966,Lê Lan,19
+967,Đặng Vi,27
+968,Vũ Hoàng,48
+969,Nguyễn Bảo Trung,52
+970,Bùi Duy Vũ,59
+971,Mai Phú Hạnh,58
+972,Hoàng Tùng,26
+973,Bùi Mai,55
+974,Lê Nam,51
+975,Vũ Lâm,64
+976,Nguyễn Tấn Thành,75
+977,Trần Châu,23
+978,Phạm Hạnh,31
+979,Đặng Dũng,44
+980,Mai Yến,59
+981,Trần Thành,19
+982,Dương Hương,44
+983,Lê Nhiên,55
+984,Hoàng Bảo,36
+985,Vũ Duy Lâm,59
+986,Lê Hạnh,28
+987,Dương Thành,58
+988,Lê Bảo Trọng,58
+989,Dương Bảo An,21
+990,Hoàng Hương,65
+991,Trần Khoa,40
+992,Bùi Vi,31
+993,Đặng Xuân Phương,52
+994,Bùi Trí Khoa,36
+995,Phạm Đức Trung,70
+996,Trần Bảo Thành,26
+997,Mai Tấn Minh,56
+998,Bùi Hữu Bảo,49
+999,Mai Đức Hưng,23
+1000,Bùi Hữu Nam,27
+1001,Đặng Tú,69
+1002,Bùi Linh,71
+1003,Lê Xuân,75
+1004,Phạm Ánh,44
+1005,Mai Bảo,32
+1006,Trần An,25
+1007,Trần Hoàng Châu,64
+1008,Trần Ánh,23
+1009,Bùi Ánh,77
+1010,Trần Tùng,36
+1011,Nguyễn Dũng,63
+1012,Dương Duyên,44
+1013,Vũ Xuân Quang,57
+1014,Dương Quang Khoa,30
+1015,Lê Đức Châu,46
+1016,Bùi Duyên,31
+1017,Hoàng Đức Hà,74
+1018,Hoàng Lan,79
+1019,Dương Huy,27
+1020,Trần Nhật,59
+1021,Trần Bảo Bảo,19
+1022,Nguyễn Nhật,20
+1023,Nguyễn Phú Hưng,78
+1024,Lê Phú An,53
+1025,Nguyễn Hoàng Bảo,80
+1026,Trần Tùng,60
+1027,Đặng Vân,24
+1028,Đặng Hữu Kim,23
+1029,Dương Hà,54
+1030,Trần Đức Minh,25
+1031,Nguyễn Vi,79
+1032,Dương Dương,66
+1033,Dương Xuân Phương,31
+1034,Trần Duy Nhật,77
+1035,Đặng Hải,22
+1036,Đặng Thế Minh,78
+1037,Trần Khoa,27
+1038,Trần Phú Khoa,39
+1039,Trần Quang Hải,27
+1040,Đặng Thảo,24
+1041,Đặng Văn Phương,63
+1042,Hoàng Phúc,67
+1043,Bùi An,59
+1044,Trần Hạnh,29
+1045,Lê Vũ,60
+1046,Nguyễn Lan,22
+1047,Vũ Yến,29
+1048,Phạm Xuân,54
+1049,Trần Hoàng Hoàng,32
+1050,Dương Hoàng Dũng,35
+1051,Bùi Văn Bảo,70
+1052,Bùi Hải Nhật,22
+1053,Đặng Hoàng Lâm,64
+1054,Đặng Bảo,46
+1055,Vũ Hà,56
+1056,Đặng Ngọc,47
+1057,Phạm Phương,70
+1058,Hoàng Xuân,33
+1059,Mai Văn Hà,60
+1060,Vũ Hoàng,20
+1061,Đặng Vũ,63
+1062,Nguyễn Huy,39
+1063,Dương Đức Khoa,54
+1064,Vũ Duyên,49
+1065,Dương Xuân Khoa,35
+1066,Phạm Trung,70
+1067,Nguyễn Duy Quang,71
+1068,Phạm Duy Khoa,60
+1069,Lê Hải Khoa,64
+1070,Lê Hải Bảo,33
+1071,Trần Thành,63
+1072,Dương Mai Bảo,38
+1073,Trần Phương,28
+1074,Vũ Hoàng Nhật,64
+1075,Lê Phương,52
+1076,Nguyễn Hương,76
+1077,Vũ Quang Bảo,76
+1078,Trần Châu,40
+1079,Bùi Thế Châu,57
+1080,Phạm Xuân Bảo,46
+1081,Vũ Mai,20
+1082,Dương Hoàng Lâm,63
+1083,Lê Nam,26
+1084,Mai Bảo,76
+1085,Dương Quang,39
+1086,Phạm Trung,24
+1087,Lê Trung,35
+1088,Dương Mai Tùng,37
+1089,Đặng Anh,74
+1090,Bùi Lan,49
+1091,Mai Hồng,40
+1092,Dương Anh,53
+1093,Đặng Ngọc,76
+1094,Vũ Hà,46
+1095,Mai An,54
+1096,Mai Mai Phương,69
+1097,Bùi Đức Khoa,57
+1098,Hoàng Thành,56
+1099,Vũ Hải Lâm,61
+1100,Hoàng Châu,78
+1101,Bùi Lâm,36
+1102,Lê Khoa,30
+1103,Nguyễn Hương,72
+1104,Dương Hữu Khoa,54
+1105,Dương Đức Khoa,43
+1106,Hoàng Tùng,75
+1107,Nguyễn Hữu Bảo,37
+1108,Bùi Mai Phương,69
+1109,Trần Xuân Thành,70
+1110,Mai Trung,48
+1111,Vũ Tấn Hà,30
+1112,Phạm Huy,30
+1113,Trần Phú Bảo,63
+1114,Trần Thành,26
+1115,Dương Thành,52
+1116,Mai Hồng,60
+1117,Nguyễn Vũ,64
+1118,Vũ Kim,49
+1119,Nguyễn Anh,33
+1120,Vũ Dương,73
+1121,Mai Bảo,43
+1122,Mai Ánh,42
+1123,Bùi Linh,74
+1124,Dương Duy Dũng,26
+1125,Lê Bảo,51
+1126,Lê Hữu Minh,37
+1127,Mai Tùng,66
+1128,Nguyễn Anh,19
+1129,Đặng Trọng,51
+1130,Hoàng Tấn Hải,67
+1131,Vũ Kim,30
+1132,Vũ Tấn Quang,52
+1133,Hoàng Lâm,26
+1134,Phạm Tùng,44
+1135,Trần Hoàng Khoa,35
+1136,Lê Trí Thành,36
+1137,Nguyễn Tú,63
+1138,Bùi Ánh,66
+1139,Hoàng Tấn Châu,44
+1140,Mai Phúc,40
+1141,Hoàng An,22
+1142,Lê Hương,35
+1143,Hoàng Hải,19
+1144,Nguyễn Khoa,43
+1145,Vũ Duy Hạnh,74
+1146,Mai Trung,23
+1147,Hoàng Phương,65
+1148,Bùi Thảo,64
+1149,Mai Đức Thành,43
+1150,Mai Minh,41
+1151,Mai Hạnh,35
+1152,Bùi Yến,30
+1153,Nguyễn Hoàng Nhiên,32
+1154,Đặng Lan,43
+1155,Nguyễn Đức Hạnh,23
+1156,Nguyễn Huy,21
+1157,Trần Dũng,47
+1158,Đặng Anh,18
+1159,Vũ Châu,37
+1160,Bùi Bảo Trung,67
+1161,Dương Phú An,27
+1162,Nguyễn Châu,27
+1163,Hoàng Thảo,58
+1164,Phạm Đức Vũ,35
+1165,Phạm Nhiên,55
+1166,Dương Tấn Kim,69
+1167,Mai Dũng,25
+1168,Mai Thế Hà,62
+1169,Dương Tùng,77
+1170,Dương Ánh,66
+1171,Lê Xuân Hải,51
+1172,Vũ Hà,36
+1173,Nguyễn Bảo,67
+1174,Trần Ánh,68
+1175,Dương Tùng,22
+1176,Vũ Thành,26
+1177,Hoàng Thế Anh,55
+1178,Nguyễn Trí Nhiên,37
+1179,Bùi Quang Tú,32
+1180,Nguyễn Hữu Lâm,50
+1181,Bùi Bảo,55
+1182,Vũ Tấn Thành,34
+1183,Nguyễn Hoàng,72
+1184,Hoàng Ánh,60
+1185,Phạm Nhiên,41
+1186,Nguyễn Hoàng Tùng,60
+1187,Dương Linh,59
+1188,Phạm Châu,44
+1189,Lê Trí Khoa,76
+1190,Mai Đức Huy,61
+1191,Mai Dương,25
+1192,Nguyễn Hữu Quang,58
+1193,Lê Thế Dũng,24
+1194,Nguyễn Đức Anh,76
+1195,Lê Đức Anh,38
+1196,Trần Hạnh,54
+1197,Dương Lâm,51
+1198,Phạm Hạnh,44
+1199,Mai Hải Phúc,68
+1200,Phạm Kim,60
+1201,Vũ Trí Quang,78
+1202,Dương Hoàng Hoàng,54
+1203,Dương Lan,67
+1204,Hoàng Đức Vũ,38
+1205,Bùi Thành,41
+1206,Trần Vân,80
+1207,Phạm Tấn Trọng,49
+1208,Trần Xuân Nhiên,39
+1209,Nguyễn Thành,50
+1210,Phạm Thế Phương,49
+1211,Vũ Nhiên,21
+1212,Trần Dũng,80
+1213,Phạm Quang Nhật,76
+1214,Đặng Tùng,27
+1215,Phạm Mai Hà,78
+1216,Lê Hải Khoa,67
+1217,Hoàng Khoa,34
+1218,Lê Hà,78
+1219,Mai Tấn Nhật,50
+1220,Nguyễn Thế Phương,62
+1221,Dương Thành,41
+1222,Lê Hà,31
+1223,Bùi Hưng,27
+1224,Dương Bảo,57
+1225,Đặng Hữu Trọng,39
+1226,Dương Khoa,33
+1227,Bùi Linh,55
+1228,Mai Trí Thành,50
+1229,Dương Trung,37
+1230,Dương Lâm,46
+1231,Phạm Phú Trung,66
+1232,Lê Ánh,64
+1233,Trần Duyên,43
+1234,Trần Xuân Nam,52
+1235,Hoàng Chi,67
+1236,Dương Nam,47
+1237,Lê Quang,29
+1238,Trần Dũng,21
+1239,Trần Thành,74
+1240,Hoàng Dũng,40
+1241,Bùi Linh,55
+1242,Mai Lan,18
+1243,Hoàng Duyên,59
+1244,Trần Hương,58
+1245,Bùi Thành,25
+1246,Đặng Hải Trọng,49
+1247,Vũ Nam,77
+1248,Mai Kim,21
+1249,Bùi Xuân Bảo,39
+1250,Phạm Minh,24
+1251,Lê Bảo Hưng,43
+1252,Nguyễn Hữu Minh,22
+1253,Lê Nhật,70
+1254,Phạm Tú,66
+1255,Hoàng Khoa,54
+1256,Hoàng Mai An,26
+1257,Phạm Đức Khoa,19
+1258,Đặng Bảo,45
+1259,Mai Văn Nhiên,24
+1260,Bùi Hồng,19
+1261,Mai Phương,59
+1262,Hoàng Lan,63
+1263,Vũ Phương,55
+1264,Phạm Hoàng Bảo,22
+1265,Đặng Duy Quang,29
+1266,Hoàng Nhật,57
+1267,Bùi Thế Phương,39
+1268,Trần Thành,27
+1269,Trần Xuân Nhật,34
+1270,Dương Hạnh,76
+1271,Phạm Tùng,58
+1272,Mai Yến,76
+1273,Bùi Hữu Hà,51
+1274,Phạm Kim,61
+1275,Trần Hữu Phúc,58
+1276,Hoàng Hưng,27
+1277,Đặng Hạnh,64
+1278,Vũ Thế Tùng,59
+1279,Nguyễn Văn Dũng,29
+1280,Dương Bảo Nhật,72
+1281,Trần Phú Nhiên,28
+1282,Phạm Tấn Kim,22
+1283,Phạm Lâm,67
+1284,Bùi Trung,22
+1285,Bùi Trọng,32
+1286,Hoàng Bảo,79
+1287,Đặng Thành,33
+1288,Vũ Xuân Bảo,73
+1289,Đặng An,27
+1290,Dương Yến,42
+1291,Dương Nhiên,57
+1292,Đặng Vân,77
+1293,Đặng Thành,20
+1294,Lê Văn Hà,35
+1295,Phạm Trung,51
+1296,Đặng Trọng,18
+1297,Lê Hạnh,80
+1298,Lê Bảo,71
+1299,Đặng Xuân,44
+1300,Lê Hoàng Nhiên,48
+1301,Trần Duy Minh,65
+1302,Đặng Linh,52
+1303,Hoàng Hà,32
+1304,Dương Đức Nhiên,42
+1305,Mai Thành,27
+1306,Mai Quang,69
+1307,Dương Xuân,37
+1308,Bùi Mai Khoa,56
+1309,Hoàng Hồng,22
+1310,Trần Tùng,61
+1311,Bùi Lâm,48
+1312,Nguyễn Mai Lâm,51
+1313,Phạm Bảo,73
+1314,Lê Xuân Khoa,67
+1315,Vũ Khoa,46
+1316,Bùi Chi,21
+1317,Đặng Trí Anh,20
+1318,Đặng Xuân,75
+1319,Lê Ngọc,60
+1320,Mai Mai Phương,40
+1321,Mai Bảo Nhiên,33
+1322,Hoàng Bảo Vũ,41
+1323,Nguyễn Châu,65
+1324,Hoàng Xuân Nhật,31
+1325,Trần Duyên,29
+1326,Dương Kim,74
+1327,Trần An,40
+1328,Trần Hà,48
+1329,Bùi Anh,26
+1330,Vũ Phú Hoàng,66
+1331,Đặng Thành,43
+1332,Trần Vân,54
+1333,Vũ An,75
+1334,Dương Mai,33
+1335,Hoàng Hữu Kim,47
+1336,Vũ Trung,18
+1337,Vũ Bảo Dũng,38
+1338,Đặng Mai,54
+1339,Hoàng Khoa,44
+1340,Bùi An,50
+1341,Dương Hạnh,79
+1342,Đặng Bảo Minh,42
+1343,Đặng Hoàng Khoa,67
+1344,Vũ Quang Tùng,71
+1345,Nguyễn Mai An,25
+1346,Nguyễn Phương,37
+1347,Nguyễn Duy Lâm,34
+1348,Vũ Hạnh,24
+1349,Dương Khoa,23
+1350,Mai Khoa,22
+1351,Vũ Khoa,49
+1352,Hoàng Phúc,22
+1353,Trần Tấn Minh,58
+1354,Phạm Anh,80
+1355,Mai Thành,43
+1356,Dương Khoa,18
+1357,Hoàng Hạnh,73
+1358,Mai Hải Hà,68
+1359,Dương Đức Khoa,22
+1360,Bùi Phương,34
+1361,Trần Tùng,26
+1362,Dương Tú,77
+1363,Lê Bảo Khoa,60
+1364,Phạm Hạnh,35
+1365,Dương Hà,75
+1366,Hoàng Bảo,64
+1367,Lê Linh,80
+1368,Dương Hoàng Anh,71
+1369,Đặng Dương,40
+1370,Mai Khoa,36
+1371,Phạm Ngọc,48
+1372,Mai Văn Khoa,59
+1373,Phạm Hải Dũng,62
+1374,Đặng Hoàng Thành,31
+1375,Lê Kim,23
+1376,Trần Ánh,56
+1377,Lê Thảo,56
+1378,Mai Thành,42
+1379,Mai Yến,70
+1380,Phạm Thành,80
+1381,Lê Bảo,65
+1382,Lê Bảo,61
+1383,Lê Kim,35
+1384,Vũ Văn Quang,26
+1385,Nguyễn Thế Hà,52
+1386,Vũ Hương,62
+1387,Đặng Đức Quang,42
+1388,Vũ Thành,50
+1389,Mai Bảo,29
+1390,Lê Bảo,42
+1391,Phạm Đức Thành,69
+1392,Phạm Thảo,73
+1393,Lê Xuân Vũ,21
+1394,Đặng Bảo Bảo,26
+1395,Trần Bảo Trung,60
+1396,Đặng Khoa,36
+1397,Dương Tùng,22
+1398,Vũ Nam,61
+1399,Mai Linh,55
+1400,Bùi Hạnh,55
+1401,Lê Thành,68
+1402,Đặng Dũng,69
+1403,Phạm Phú Huy,75
+1404,Lê Thảo,45
+1405,Nguyễn Bảo,55
+1406,Dương Thành,36
+1407,Mai An,23
+1408,Nguyễn Linh,49
+1409,Phạm Dũng,60
+1410,Dương Thành,50
+1411,Bùi Ánh,27
+1412,Lê Lâm,38
+1413,Dương Tùng,46
+1414,Đặng Tấn Nhiên,46
+1415,Lê Hương,51
+1416,Nguyễn Mai Anh,29
+1417,Bùi Hải,76
+1418,Phạm Thành,78
+1419,Dương Tấn Nhật,46
+1420,Vũ Mai Bảo,29
+1421,Nguyễn Đức Anh,34
+1422,Lê Nam,63
+1423,Đặng Quang,19
+1424,Vũ Tấn Hải,28
+1425,Bùi Trí Lâm,40
+1426,Hoàng Văn Nhiên,47
+1427,Đặng Khoa,75
+1428,Trần Phương,80
+1429,Vũ Thành,26
+1430,Dương Thành,50
+1431,Dương Hương,69
+1432,Trần Bảo Quang,62
+1433,Vũ Đức Khoa,44
+1434,Mai Duy Thành,31
+1435,Mai Hải,27
+1436,Trần Đức Khoa,39
+1437,Vũ Thành,19
+1438,Hoàng Xuân,19
+1439,Nguyễn Bảo,34
+1440,Phạm Hưng,30
+1441,Mai Hoàng Anh,33
+1442,Trần Lan,31
+1443,Phạm Xuân Hà,34
+1444,Trần Vi,33
+1445,Trần Ngọc,70
+1446,Đặng Thành,24
+1447,Lê Văn Nhiên,58
+1448,Dương Hạnh,45
+1449,Bùi Đức An,18
+1450,Hoàng Khoa,61
+1451,Vũ Nam,69
+1452,Đặng Châu,27
+1453,Hoàng Thế Hoàng,20
+1454,Nguyễn Tùng,30
+1455,Đặng Thế Quang,41
+1456,Phạm Đức Tú,66
+1457,Nguyễn Ánh,29
+1458,Phạm Quang,24
+1459,Bùi An,66
+1460,Lê Trí Tú,46
+1461,Phạm Đức Hưng,79
+1462,Đặng Vi,40
+1463,Dương Bảo,29
+1464,Hoàng Minh,49
+1465,Lê Vi,76
+1466,Nguyễn Thành,26
+1467,Mai Đức Bảo,66
+1468,Vũ Kim,40
+1469,Vũ Duyên,22
+1470,Hoàng Châu,52
+1471,Bùi Bảo,26
+1472,Lê Xuân,24
+1473,Dương Trung,23
+1474,Dương Ngọc,59
+1475,Trần Bảo,48
+1476,Phạm Yến,79
+1477,Dương Ánh,57
+1478,Bùi Trí Bảo,41
+1479,Dương Đức Hoàng,53
+1480,Lê Thế Bảo,70
+1481,Vũ Văn Thành,29
+1482,Dương Vũ,39
+1483,Dương Mai,57
+1484,Hoàng Mai Phương,18
+1485,Đặng Duyên,35
+1486,Mai Hồng,44
+1487,Dương Hương,60
+1488,Lê Hương,35
+1489,Hoàng Nam,41
+1490,Phạm Đức Bảo,70
+1491,Bùi Đức Hạnh,71
+1492,Nguyễn Bảo Phương,32
+1493,Đặng Trí Bảo,30
+1494,Dương Bảo,47
+1495,Lê Hạnh,26
+1496,Vũ Hà,69
+1497,Dương Hữu Minh,37
+1498,Bùi Minh,46
+1499,Đặng An,46
+1500,Hoàng Huy,73
+1501,Nguyễn Mai,53
+1502,Trần Hải,58
+1503,Dương Hoàng Trung,33
+1504,Lê Khoa,49
+1505,Đặng Xuân,20
+1506,Dương Xuân Hạnh,29
+1507,Dương Kim,32
+1508,Lê Quang Phương,52
+1509,Nguyễn Khoa,37
+1510,Dương Tùng,66
+1511,Vũ Bảo,19
+1512,Bùi Mai Hải,54
+1513,Dương Hải Trọng,36
+1514,Dương Anh,50
+1515,Hoàng Vi,49
+1516,Nguyễn Bảo An,27
+1517,Nguyễn Đức Kim,46
+1518,Bùi Tấn Hoàng,40
+1519,Trần Tùng,23
+1520,Hoàng Dương,35
+1521,Mai Phương,35
+1522,Vũ Khoa,60
+1523,Mai Hoàng Tú,69
+1524,Trần Thành,18
+1525,Trần Xuân,20
+1526,Nguyễn Vân,56
+1527,Nguyễn Hương,44
+1528,Đặng Đức Thành,70
+1529,Mai Phúc,52
+1530,Dương Bảo,32
+1531,Đặng Nhật,62
+1532,Đặng Mai Bảo,52
+1533,Nguyễn Thế Nam,31
+1534,Mai Kim,64
+1535,Vũ Xuân Huy,72
+1536,Phạm Linh,36
+1537,Bùi Vũ,43
+1538,Lê An,63
+1539,Đặng Anh,22
+1540,Nguyễn Quang,28
+1541,Bùi Hải,55
+1542,Mai Trung,37
+1543,Nguyễn Nhật,18
+1544,Vũ Thế Hải,41
+1545,Đặng Vân,52
+1546,Dương Tấn Hải,65
+1547,Dương Dũng,67
+1548,Vũ Hà,23
+1549,Nguyễn Nam,47
+1550,Lê Mai Khoa,19
+1551,Vũ Minh,52
+1552,Trần Nhật,68
+1553,Đặng Phương,73
+1554,Hoàng Ánh,40
+1555,Phạm Hải Hải,43
+1556,Phạm Bảo,73
+1557,Trần Hoàng Thành,34
+1558,Hoàng Minh,49
+1559,Đặng Huy,50
+1560,Mai Hải,65
+1561,Đặng Mai Hoàng,65
+1562,Trần Kim,57
+1563,Vũ Tùng,77
+1564,Trần Phú An,45
+1565,Phạm Đức Hải,30
+1566,Nguyễn Huy,73
+1567,Vũ Tấn Quang,27
+1568,Lê Thành,80
+1569,Bùi Bảo Khoa,42
+1570,Phạm Duy Nhật,50
+1571,Phạm Hương,74
+1572,Dương An,19
+1573,Lê Thành,20
+1574,Nguyễn Vũ,43
+1575,Vũ Tùng,53
+1576,Dương Thế Hạnh,55
+1577,Phạm Hà,37
+1578,Đặng Vân,70
+1579,Dương Văn Phương,71
+1580,Trần Khoa,59
+1581,Mai Phương,35
+1582,Dương Xuân Trung,57
+1583,Bùi Vũ,61
+1584,Nguyễn Mai Phương,62
+1585,Mai Mai An,18
+1586,Bùi An,47
+1587,Vũ Hải,68
+1588,Đặng Lâm,23
+1589,Mai Văn Hoàng,49
+1590,Nguyễn Hoàng,24
+1591,Bùi Phương,68
+1592,Bùi Nhật,24
+1593,Bùi Châu,79
+1594,Lê Hoàng Thành,26
+1595,Nguyễn Quang,64
+1596,Trần Trọng,51
+1597,Hoàng Văn Thành,42
+1598,Phạm Khoa,24
+1599,Hoàng Bảo,19
+1600,Vũ Mai Lâm,24
+1601,Trần Linh,70
+1602,Trần Tú,28
+1603,Bùi Nhật,46
+1604,Phạm Minh,27
+1605,Vũ Hữu Bảo,25
+1606,Phạm Phương,61
+1607,Đặng An,38
+1608,Mai Khoa,61
+1609,Vũ Đức Bảo,80
+1610,Đặng Hương,30
+1611,Hoàng Mai Tú,31
+1612,Lê Dũng,27
+1613,Trần Hải,33
+1614,Bùi Văn Lâm,69
+1615,Đặng Bảo Lâm,30
+1616,Vũ Hoàng Tú,63
+1617,Phạm An,30
+1618,Đặng Hữu Thành,31
+1619,Vũ Tú,35
+1620,Đặng Quang Thành,79
+1621,Phạm Tùng,29
+1622,Nguyễn Yến,79
+1623,Lê Trung,52
+1624,Lê Trí Minh,72
+1625,Mai Linh,49
+1626,Bùi Quang Phúc,76
+1627,Mai Thảo,40
+1628,Bùi Thành,47
+1629,Mai Trung,32
+1630,Đặng Nhật,20
+1631,Lê Lâm,41
+1632,Bùi Huy,20
+1633,Mai Thế Hà,39
+1634,Vũ Phúc,34
+1635,Trần Kim,24
+1636,Trần Mai,61
+1637,Mai Đức Hải,50
+1638,Đặng Mai Phương,62
+1639,Phạm Trí Vũ,75
+1640,Mai Xuân Tùng,68
+1641,Bùi Hà,18
+1642,Hoàng Hạnh,42
+1643,Vũ Đức Trọng,41
+1644,Mai Bảo,59
+1645,Vũ Bảo,67
+1646,Đặng Thế Nam,29
+1647,Đặng Hữu Tú,21
+1648,Lê Bảo,18
+1649,Phạm Linh,63
+1650,Bùi Bảo,74
+1651,Vũ Phú Kim,55
+1652,Trần Minh,32
+1653,Đặng Lâm,43
+1654,Phạm An,33
+1655,Vũ Tấn Nam,80
+1656,Mai Anh,44
+1657,Hoàng Hương,43
+1658,Phạm Chi,42
+1659,Dương Hải,21
+1660,Bùi Bảo Hà,64
+1661,Trần Duyên,21
+1662,Vũ Hữu Hưng,46
+1663,Lê Hồng,48
+1664,Mai Bảo Trọng,25
+1665,Nguyễn Yến,77
+1666,Mai Xuân,62
+1667,Đặng Dũng,31
+1668,Đặng Lan,48
+1669,Nguyễn Đức Thành,51
+1670,Nguyễn Phú Nam,23
+1671,Dương Hữu Khoa,33
+1672,Hoàng Hải Trọng,66
+1673,Lê Hồng,40
+1674,Phạm Hoàng,79
+1675,Mai Lâm,74
+1676,Nguyễn Thảo,60
+1677,Hoàng Dũng,39
+1678,Phạm Quang,59
+1679,Hoàng Hà,22
+1680,Dương Hữu Hà,54
+1681,Trần Thành,46
+1682,Mai Bảo Hải,61
+1683,Hoàng Phương,77
+1684,Dương Tấn Anh,71
+1685,Bùi Lan,54
+1686,Hoàng Chi,79
+1687,Đặng Thế An,62
+1688,Hoàng Bảo,51
+1689,Phạm Văn An,72
+1690,Hoàng Hạnh,46
+1691,Hoàng Quang An,56
+1692,Bùi Chi,57
+1693,Bùi Hạnh,19
+1694,Mai Anh,24
+1695,Mai Kim,20
+1696,Dương Ánh,28
+1697,Vũ Hữu An,74
+1698,Lê Duyên,61
+1699,Phạm Đức Hưng,38
+1700,Nguyễn Tú,54
+1701,Lê Quang,67
+1702,Phạm Dũng,73
+1703,Vũ Hữu Thành,31
+1704,Dương Tấn Tú,43
+1705,Mai Thế Bảo,57
+1706,Đặng Phú Nhiên,61
+1707,Bùi Hoàng Hải,36
+1708,Nguyễn Tấn Hải,27
+1709,Đặng Thảo,52
+1710,Lê Lâm,54
+1711,Nguyễn Trọng,61
+1712,Lê Nhật,61
+1713,Bùi Tấn Dũng,78
+1714,Dương Đức Trung,56
+1715,Bùi Hải Phương,67
+1716,Mai Tấn Nhiên,76
+1717,Lê Hạnh,37
+1718,Lê Mai Thành,32
+1719,Dương Quang Khoa,68
+1720,Lê Mai Hoàng,46
+1721,Bùi Phương,62
+1722,Phạm Hữu Lâm,24
+1723,Hoàng Xuân Nhật,31
+1724,Trần Trung,58
+1725,Hoàng Minh,35
+1726,Mai Lâm,69
+1727,Phạm Linh,21
+1728,Lê Trung,38
+1729,Nguyễn Xuân Thành,57
+1730,Lê Duyên,41
+1731,Phạm Thành,40
+1732,Lê Duyên,31
+1733,Bùi Mai Thành,31
+1734,Hoàng Vân,36
+1735,Hoàng Hoàng Hưng,19
+1736,Trần Vi,57
+1737,Vũ Nhật,22
+1738,Đặng Hoàng Phúc,60
+1739,Dương Quang Kim,57
+1740,Vũ Vi,40
+1741,Trần An,56
+1742,Lê Thế Bảo,27
+1743,Nguyễn Xuân Nhật,51
+1744,Vũ Hữu Tùng,40
+1745,Mai Châu,44
+1746,Hoàng Bảo,19
+1747,Nguyễn Hữu Thành,63
+1748,Hoàng Hải Hải,79
+1749,Trần Hải Hạnh,47
+1750,Đặng Tấn Trọng,62
+1751,Vũ Trọng,77
+1752,Phạm Trung,79
+1753,Lê Kim,72
+1754,Hoàng Đức Hạnh,18
+1755,Dương Văn Thành,48
+1756,Hoàng Phúc,77
+1757,Mai Hoàng Hạnh,58
+1758,Đặng Lâm,30
+1759,Lê Vũ,23
+1760,Mai Trí Phúc,73
+1761,Hoàng Tấn Bảo,33
+1762,Dương Trí Tú,54
+1763,Trần Mai,58
+1764,Dương Duy Quang,62
+1765,Hoàng Đức An,55
+1766,Đặng Hải Khoa,35
+1767,Trần Nam,39
+1768,Mai Bảo Hạnh,61
+1769,Bùi Duy Minh,45
+1770,Nguyễn Duy Khoa,74
+1771,Lê Bảo,29
+1772,Vũ Hương,63
+1773,Hoàng Trí Bảo,34
+1774,Hoàng Nhật,32
+1775,Hoàng Bảo,22
+1776,Vũ Vi,71
+1777,Hoàng Mai Dũng,37
+1778,Phạm Duy Hoàng,45
+1779,Trần Văn Nhiên,23
+1780,Hoàng Chi,40
+1781,Hoàng Quang Lâm,58
+1782,Phạm Thế Thành,71
+1783,Dương Quang Tùng,62
+1784,Phạm Lâm,28
+1785,Bùi Mai Thành,66
+1786,Hoàng Phúc,43
+1787,Lê Xuân Quang,28
+1788,Dương Kim,19
+1789,Dương Ánh,35
+1790,Trần Hải An,30
+1791,Đặng Thành,52
+1792,Nguyễn Hải Bảo,63
+1793,Nguyễn Hoàng Thành,68
+1794,Lê Huy,36
+1795,Hoàng Thành,80
+1796,Nguyễn Hưng,27
+1797,Mai Xuân Nhật,30
+1798,Đặng Trí Hạnh,70
+1799,Phạm Bảo Huy,53
+1800,Dương Xuân,36
+1801,Vũ Trọng,52
+1802,Hoàng Đức Hải,52
+1803,Phạm Bảo Hưng,18
+1804,Đặng Châu,58
+1805,Trần Khoa,76
+1806,Vũ Mai Châu,77
+1807,Nguyễn Hoàng Hải,37
+1808,Phạm Xuân Anh,59
+1809,Trần Vi,22
+1810,Nguyễn Mai,47
+1811,Lê Nhật,24
+1812,Phạm Quang,34
+1813,Phạm Đức Khoa,68
+1814,Mai Lâm,23
+1815,Hoàng Trí Châu,37
+1816,Vũ Xuân An,75
+1817,Lê Dũng,63
+1818,Hoàng Phú Kim,74
+1819,Mai Châu,57
+1820,Hoàng Quang Trọng,27
+1821,Nguyễn Nam,21
+1822,Nguyễn Yến,28
+1823,Hoàng Quang,63
+1824,Nguyễn Phương,32
+1825,Dương Dương,70
+1826,Hoàng Lan,60
+1827,Nguyễn Quang Nhiên,48
+1828,Hoàng Trọng,33
+1829,Trần Hồng,48
+1830,Hoàng Hạnh,37
+1831,Vũ Trí Bảo,62
+1832,Đặng Văn An,57
+1833,Mai Trọng,73
+1834,Dương Hải,30
+1835,Hoàng Nam,67
+1836,Mai Phú An,62
+1837,Phạm Hạnh,36
+1838,Hoàng Thành,61
+1839,Trần Tấn Hạnh,26
+1840,Dương Mai,80
+1841,Trần Vi,57
+1842,Mai Duy Trung,65
+1843,Trần Dương,63
+1844,Hoàng Phương,54
+1845,Mai Vi,59
+1846,Trần Vũ,71
+1847,Bùi Khoa,69
+1848,Trần Trí Phương,54
+1849,Mai Bảo Hoàng,39
+1850,Lê Văn An,64
+1851,Hoàng Hoàng An,64
+1852,Dương Bảo Phúc,65
+1853,Vũ Vân,47
+1854,Vũ Hoàng,25
+1855,Dương Hải Hạnh,18
+1856,Bùi Hoàng Hạnh,66
+1857,Bùi Hạnh,48
+1858,Bùi Bảo Hà,51
+1859,Phạm Bảo,23
+1860,Phạm Thành,76
+1861,Phạm Thế Hạnh,67
+1862,Lê Hoàng Thành,28
+1863,Bùi Quang Nam,54
+1864,Bùi Mai Tú,48
+1865,Trần Bảo,63
+1866,Đặng Yến,56
+1867,Đặng Phú Hải,48
+1868,Đặng Hồng,73
+1869,Bùi Lâm,44
+1870,Trần Hải Hạnh,67
+1871,Hoàng Chi,21
+1872,Hoàng Phú Tú,64
+1873,Đặng Xuân Tú,77
+1874,Phạm Khoa,64
+1875,Đặng Vân,37
+1876,Dương Phú Bảo,50
+1877,Trần Trí Minh,36
+1878,Mai Văn Nhật,43
+1879,Đặng Hưng,25
+1880,Dương Mai Trọng,52
+1881,Đặng Đức Hà,46
+1882,Hoàng Tấn Kim,66
+1883,Phạm Hồng,36
+1884,Nguyễn Xuân,57
+1885,Mai Lâm,35
+1886,Bùi Hải,33
+1887,Hoàng Hưng,39
+1888,Bùi Phú Hải,23
+1889,Vũ Hương,24
+1890,Mai An,21
+1891,Dương Hoàng Trọng,58
+1892,Hoàng Chi,23
+1893,Phạm Tùng,42
+1894,Vũ Hoàng Quang,25
+1895,Mai Hoàng,45
+1896,Phạm Thành,36
+1897,Hoàng Vân,52
+1898,Vũ Hải Phương,32
+1899,Đặng Anh,49
+1900,Lê Trí Hạnh,79
+1901,Dương Mai,23
+1902,Bùi An,80
+1903,Nguyễn Trung,35
+1904,Dương Ánh,67
+1905,Vũ Yến,19
+1906,Phạm Văn Bảo,51
+1907,Nguyễn Đức Khoa,57
+1908,Vũ Đức Tùng,31
+1909,Nguyễn Hoàng,61
+1910,Dương Quang,70
+1911,Dương Nhiên,38
+1912,Trần Anh,19
+1913,Mai Duyên,52
+1914,Trần Ngọc,34
+1915,Nguyễn Hương,80
+1916,Trần Văn Hải,73
+1917,Mai Hải Thành,24
+1918,Dương Kim,41
+1919,Hoàng Trung,23
+1920,Nguyễn Hạnh,25
+1921,Vũ Bảo,49
+1922,Lê Hưng,46
+1923,Dương Yến,23
+1924,Lê Thành,74
+1925,Dương Minh,72
+1926,Trần Dương,39
+1927,Mai Phương,44
+1928,Vũ Chi,49
+1929,Phạm Đức Hạnh,26
+1930,Phạm Trí Phương,41
+1931,Trần Thành,63
+1932,Trần Dũng,71
+1933,Mai Hữu Phương,21
+1934,Trần Phú Tú,50
+1935,Nguyễn Thế Vũ,66
+1936,Bùi Hoàng,55
+1937,Mai Huy,33
+1938,Mai Văn Bảo,31
+1939,Dương Hải,36
+1940,Trần Nam,49
+1941,Phạm Bảo,54
+1942,Dương Minh,59
+1943,Lê Quang Phương,80
+1944,Vũ Anh,76
+1945,Dương Phương,70
+1946,Hoàng Bảo,73
+1947,Phạm Hồng,19
+1948,Nguyễn Thành,21
+1949,Đặng Vân,58
+1950,Hoàng Mai Khoa,33
+1951,Lê Vũ,45
+1952,Trần Quang,57
+1953,Vũ Chi,30
+1954,Dương Văn Khoa,78
+1955,Trần Bảo,44
+1956,Phạm Khoa,74
+1957,Mai Phú Bảo,21
+1958,Mai Lâm,70
+1959,Mai An,51
+1960,Bùi Vi,33
+1961,Lê Phú Hải,21
+1962,Phạm Hữu Bảo,28
+1963,Hoàng Hưng,36
+1964,Lê Hữu Trọng,24
+1965,Trần Tú,57
+1966,Nguyễn Phúc,56
+1967,Hoàng Trí Quang,21
+1968,Trần Tùng,76
+1969,Vũ Hải An,43
+1970,Mai Mai Quang,26
+1971,Phạm Hà,54
+1972,Đặng Trí Phương,51
+1973,Trần Tú,36
+1974,Trần Hoàng Kim,62
+1975,Hoàng Hoàng Bảo,40
+1976,Hoàng Đức Thành,64
+1977,Mai Ngọc,57
+1978,Đặng Hoàng Khoa,58
+1979,Dương Mai,31
+1980,Mai Đức Châu,24
+1981,Dương Hữu Hưng,59
+1982,Dương Duyên,74
+1983,Đặng Văn Thành,25
+1984,Đặng Lâm,33
+1985,Mai Đức Phương,48
+1986,Bùi Tùng,77
+1987,Nguyễn Trí Hưng,29
+1988,Nguyễn Hải Khoa,53
+1989,Nguyễn Quang,29
+1990,Nguyễn Huy,80
+1991,Phạm Hữu Quang,78
+1992,Trần Hoàng An,26
+1993,Hoàng Linh,40
+1994,Nguyễn Hồng,56
+1995,Vũ Vân,22
+1996,Đặng Ánh,19
+1997,Phạm Thảo,27
+1998,Vũ Hoàng,64
+1999,Vũ An,45
+2000,Phạm Xuân Hải,56
