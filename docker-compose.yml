@@ -54,6 +54,7 @@ services:
       - ./logstash/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
       - ./logstash/logstash.yml:/usr/share/logstash/config/logstash.yml
       - ./data/employees.csv:/usr/share/logstash/data/employees.csv
+      - ./data/2_people_data_2k.csv:/usr/share/logstash/data/2_people_data_2k.csv
     ports:
       - "${LOGSTASH_PORT:-5044}:5044"
       - "${LOGSTASH_TCP_PORT:-5000}:5000"
