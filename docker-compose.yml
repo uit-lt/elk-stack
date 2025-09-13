@@ -101,6 +101,9 @@ services:
       - "${SPARK_MASTER_UI_PORT:-8080}:8080"
     volumes:
       - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+      - ./spark/tests/connections_analysis.py:/opt/bitnami/spark/connections_analysis.py
+    depends_on:
+      - elasticsearch
     networks:
       - elk
 
@@ -110,6 +113,8 @@ services:
     environment:
       - SPARK_MODE=worker
       - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=1g
+      - SPARK_WORKER_CORES=1
     depends_on:
       - spark-master
     volumes:
@@ -125,6 +130,8 @@ services:
     environment:
       - SPARK_MODE=worker
       - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=1g
+      - SPARK_WORKER_CORES=1
     depends_on:
       - spark-master
     volumes:
