@@ -165,3 +165,56 @@ curl -X GET "localhost:9200/employees/_search?pretty"
 > - Change the port number if you have modified the `ELASTICSEARCH_HTTP_PORT` in the `.env` file.
 
 ❤️‍🔥 **_Check this branch to see the full example_: [[feat/import-csv-with-logstash/docker-compose](https://github.com/tanhongit/docker-elasticsearch-logstash-kibana/blob/feat/import-csv-with-logstash/logstash/logstash.conf)]** ❤️‍🔥
+
+## 🚀 Run Spark
+
+Start Spark services:
+
+```shell
+docker-compose up -d spark-master spark-worker
+```
+
+Access UIs:
+- Spark Master UI: http://localhost:${SPARK_MASTER_WEBUI_PORT:-8080}
+- Spark Worker UI: http://localhost:${SPARK_WORKER_WEBUI_PORT:-8081}
+
+Submit an example job:
+
+```shell
+docker-compose exec spark-master spark-submit \
+  --master spark://spark-master:7077 \
+  --class org.apache.spark.examples.SparkPi \
+  examples/jars/spark-examples_2.12-3.5.1.jar 10
+```
+
+Use PySpark with Elasticsearch connector (optional):
+
+```shell
+docker-compose exec -it spark-master pyspark \
+  --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.1
+```
+
+Python example to write to Elasticsearch:
+
+```python
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.getOrCreate()
+
+df = spark.createDataFrame([(1, "Alice"), (2, "Bob")], ["id", "name"])
+(
+  df.write
+    .format("org.elasticsearch.spark.sql")
+    .option("es.nodes", "elasticsearch")   # Docker service name
+    .option("es.port", "9200")             # Match ELASTICSEARCH_HTTP_PORT
+    # If security enabled, add:
+    # .option("es.net.http.auth.user", "elastic")
+    # .option("es.net.http.auth.pass", "<ELASTIC_PASSWORD>")
+    .save("people_index")
+)
+```
+
+Notes:
+- If ports 8080/8081 are in use, change them in `.env` (SPARK_MASTER_WEBUI_PORT, SPARK_WORKER_WEBUI_PORT).
+- Elasticsearch security is disabled by default in `.env.example`. If you enable it, include auth options above.
+

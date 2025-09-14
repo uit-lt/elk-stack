@@ -7,6 +7,42 @@ volumes:
     driver: local
 
 services:
+  ## SPARK MASTER
+  spark-master:
+    image: ${SPARK_IMAGE:-bitnami/spark:3.5.1}
+    container_name: "${COMPOSE_PROJECT_NAME}-spark-master"
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLE=no
+      - SPARK_RPC_ENCRYPTION_ENABLE=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLE=no
+      - SPARK_SSL_ENABLE=no
+    ports:
+      - "${SPARK_MASTER_PORT:-7077}:7077"
+      - "${SPARK_MASTER_WEBUI_PORT:-8080}:8080"
+    networks:
+      - elk
+
+  ## SPARK WORKER
+  spark-worker:
+    image: ${SPARK_IMAGE:-bitnami/spark:3.5.1}
+    container_name: "${COMPOSE_PROJECT_NAME}-spark-worker"
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=${SPARK_WORKER_MEMORY:-1G}
+      - SPARK_WORKER_CORES=${SPARK_WORKER_CORES:-1}
+      - SPARK_RPC_AUTHENTICATION_ENABLE=no
+      - SPARK_RPC_ENCRYPTION_ENABLE=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLE=no
+      - SPARK_SSL_ENABLE=no
+    depends_on:
+      - spark-master
+    ports:
+      - "${SPARK_WORKER_WEBUI_PORT:-8081}:8081"
+    networks:
+      - elk
+
   ## ELASTICSEARCH SERVICE
   elasticsearch:
     container_name: "${COMPOSE_PROJECT_NAME}-elasticsearch"
