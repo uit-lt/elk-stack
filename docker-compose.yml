@@ -95,13 +95,19 @@ services:
     image: bitnami/spark:3.5
     container_name: spark-master
     environment:
+      - HOME=/tmp
       - SPARK_MODE=master
+      - HADOOP_USER_NAME=root
+      - SPARK_RPC_AUTHENTICATION_ENABLE=no
+      - SPARK_RPC_ENCRYPTION_ENABLE=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLE=no
+      - SPARK_SSL_ENABLE=no
     ports:
       - "${SPARK_MASTER_PORT:-7077}:7077"
       - "${SPARK_MASTER_UI_PORT:-8080}:8080"
     volumes:
-      - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
-      - ./spark/tests/connections_analysis.py:/opt/bitnami/spark/connections_analysis.py
+      - ${PWD}/spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+      - ${PWD}/spark/tests:/opt/bitnami/spark/tests
     depends_on:
       - elasticsearch
     networks:
@@ -112,9 +118,13 @@ services:
     container_name: spark-worker
     environment:
       - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark://spark-master:7077
       - SPARK_WORKER_MEMORY=1g
       - SPARK_WORKER_CORES=1
+      - HADOOP_USER_NAME=root
+      - SPARK_RPC_AUTHENTICATION_ENABLE=no
+      - SPARK_RPC_ENCRYPTION_ENABLE=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLE=no
+      - SPARK_SSL_ENABLE=no
     depends_on:
       - spark-master
     volumes:
@@ -129,9 +139,13 @@ services:
     container_name: spark-worker-2
     environment:
       - SPARK_MODE=worker
-      - SPARK_MASTER_URL=spark://spark-master:7077
       - SPARK_WORKER_MEMORY=1g
       - SPARK_WORKER_CORES=1
+      - HADOOP_USER_NAME=root
+      - SPARK_RPC_AUTHENTICATION_ENABLE=no
+      - SPARK_RPC_ENCRYPTION_ENABLE=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLE=no
+      - SPARK_SSL_ENABLE=no
     depends_on:
       - spark-master
     volumes:
@@ -140,3 +154,4 @@ services:
       - "${SPARK_WORKER_UI_PORT_2:-8082}:8081"
     networks:
       - elk
+
