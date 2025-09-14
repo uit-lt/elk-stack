@@ -220,6 +220,19 @@ make run CONTAINER=spark-worker
 make run CONTAINER=spark-worker TEST_FILE=test_connections.py
 ```
 
+Ex: (Get file in spark/tests folder)
+
+```bash
+make run CONTAINER=spark-worker TEST_FILE=connections_analysis.py
+make run CONTAINER=spark-worker TEST_FILE=test_duplicate_people_names.py
+make run CONTAINER=spark-worker TEST_FILE=test_employees.py
+make run CONTAINER=spark-worker TEST_FILE=test_name_start_with_text.py
+make run CONTAINER=spark-worker TEST_FILE=test_people.py
+make run CONTAINER=spark-worker TEST_FILE=test_relationship_count_per_user.py
+make run CONTAINER=spark-worker TEST_FILE=test_spark.py
+make run CONTAINER=spark-worker TEST_FILE=test_top_relationships.py
+```
+
 ***
 
 ### 3. Workflow
