@@ -157,3 +157,22 @@ services:
     networks:
       - elk
 
+
+  ## JUPYTER SERVICE
+  jupyter:
+    image: jupyter/pyspark-notebook:latest
+    container_name: jupyter
+    hostname: jupyter
+    ports:
+      - "${JUPYTER_PORT:-8888}:8888"
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN:-spark}
+      - SPARK_OPTS=--conf spark.master=spark://spark-master:7077 --conf spark.driver.host=jupyter --conf spark.driver.bindAddress=0.0.0.0
+      - PYSPARK_PYTHON=python3
+    volumes:
+      - ./spark/spark-defaults.conf:/usr/local/spark/conf/spark-defaults.conf
+      - ./jupyter:/home/jovyan/work
+    depends_on:
+      - spark-master
+    networks:
+      - elk
