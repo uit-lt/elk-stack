@@ -92,7 +92,7 @@ services:
 
   ## SPARK SERVICE
   spark-master:
-    image: bitnami/spark:3.5
+    image: ${SPARK_IMAGE:-bitnami/spark:3.5.1}
     container_name: spark-master
     environment:
       - HOME=/tmp
@@ -114,7 +114,7 @@ services:
       - elk
 
   spark-worker:
-    image: bitnami/spark:3.5
+    image: ${SPARK_IMAGE:-bitnami/spark:3.5.1}
     container_name: spark-worker
     environment:
       - SPARK_MODE=worker
@@ -135,7 +135,7 @@ services:
       - elk
 
   spark-worker-2:
-    image: bitnami/spark:3.5
+    image: ${SPARK_IMAGE:-bitnami/spark:3.5.1}
     container_name: spark-worker-2
     environment:
       - SPARK_MODE=worker
