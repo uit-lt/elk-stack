@@ -98,3 +98,24 @@ curl -X GET "localhost:9200/2_people_data_2k/_search" -H 'Content-Type: applicat
 ---
 **Status**: ✅ All operations tested and working
 **Last Updated**: 2025-09-14
+
+
+📋 HOW TO USE - SPARK ELK STACK OPERATIONS
+
+🚀 Quick Start Commands
+
+Run via Spark Submit (Command Line):
+# 1. Get all data
+docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/01_get_all_data.py
+
+# 2. Insert 5 records
+docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/02_insert_5_records.py
+
+# 3. Update 5 records
+docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/03_update_5_records.py
+
+# 4. Delete 5 records
+docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/04_delete_5_records.py
+
+# 5. Query by IDs
+docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/05_query_by_ids.py
