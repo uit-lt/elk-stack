@@ -16,3 +16,5 @@ def test_people_age_stats():
 
 if __name__ == "__main__":
     test_people_age_stats()
+
+# Get people age stats

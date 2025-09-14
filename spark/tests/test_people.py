@@ -18,3 +18,5 @@ def test_people():
 
 if __name__ == "__main__":
     test_people()
+
+#  Get Total people

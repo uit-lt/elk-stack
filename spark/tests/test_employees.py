@@ -18,3 +18,5 @@ def test_employees():
 
 if __name__ == "__main__":
     test_employees()
+
+# Get Total employees
