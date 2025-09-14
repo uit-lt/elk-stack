@@ -235,6 +235,9 @@ make run CONTAINER=spark-worker TEST_FILE=test_top_relationships.py
 make run CONTAINER=spark-worker TEST_FILE=case/test_employees_case.py
 make run CONTAINER=spark-worker TEST_FILE=case/test_connections_case.py
 make run CONTAINER=spark-worker TEST_FILE=case/test_people_case.py
+
+make run CONTAINER=spark-worker TEST_FILE=case/test_employees_rdd_case.py
+make run CONTAINER=spark-worker TEST_FILE=case/test_connections_rdd_case.py
 ```
 
 ***
