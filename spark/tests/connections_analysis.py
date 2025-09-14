@@ -3,7 +3,6 @@ from pyspark.sql import SparkSession
 def main():
     spark = SparkSession.builder \
         .appName("ConnectionsAnalysisTest") \
-        .master("local[*]") \
         .config("spark.es.nodes", "elasticsearch") \
         .config("spark.es.port", "9200") \
         .getOrCreate()

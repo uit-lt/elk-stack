@@ -129,6 +129,7 @@ services:
       - spark-master
     volumes:
       - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+      - ${PWD}/spark/tests:/opt/bitnami/spark/tests
     ports:
       - "${SPARK_WORKER_UI_PORT:-8081}:8081"
     networks:
@@ -150,6 +151,7 @@ services:
       - spark-master
     volumes:
       - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
+      - ${PWD}/spark/tests:/opt/bitnami/spark/tests
     ports:
       - "${SPARK_WORKER_UI_PORT_2:-8082}:8081"
     networks:
