@@ -104,7 +104,18 @@ curl -X GET "localhost:9200/2_people_data_2k/_search" -H 'Content-Type: applicat
 
 🚀 Quick Start Commands
 
-Run via Spark Submit (Command Line):
+## Method 1: Makefile Commands (Recommended - Shortened)
+```bash
+# Individual operations
+make spark-get-all     # Get all data from Elasticsearch
+make spark-insert      # Insert 5 new records
+make spark-update      # Update the 5 inserted records
+make spark-delete      # Delete the 5 updated records
+make spark-query       # Query specific records by IDs
+```
+
+## Method 2: Direct Spark Submit Commands
+```bash
 # 1. Get all data
 docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/01_get_all_data.py
 
@@ -119,3 +130,4 @@ docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-mast
 
 # 5. Query by IDs
 docker exec spark-master /opt/spark/bin/spark-submit --master spark://spark-master:7077 --packages org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3 /opt/spark/work-dir/05_query_by_ids.py
+```
