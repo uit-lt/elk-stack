@@ -22,7 +22,7 @@ def main():
 
     # Define updated records data
     updated_records_data = [
-        (24410114, "Tran Tireu Thuan updated", 30),
+        (24410114, "Tran Trieu Thuan updated", 30),
         (24410100, "Nguyen Phuong Tan updated", 30),
         (24410109, "Nguyen Thi Thu Thao updated", 28),
         (24410092, "Huynh Duy Quoc updated", 35),

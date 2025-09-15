@@ -29,7 +29,7 @@ def main():
 
     # Create 5 new records
     new_data = [
-        (24410114, "Tran Tireu Thuan", 30),
+        (24410114, "Tran Trieu Thuan", 30),
         (24410100, "Nguyen Phuong Tan", 30),
         (24410109, "Nguyen Thi Thu Thao", 28),
         (24410092, "Huynh Duy Quoc", 35),
