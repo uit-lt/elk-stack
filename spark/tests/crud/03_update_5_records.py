@@ -6,11 +6,8 @@ def create_spark_session():
     """Create and return Spark session"""
     return SparkSession.builder \
         .appName("Update5Records") \
-        .master("local[*]") \
-        .config("spark.es.nodes", "elasticsearch") \
         .config("spark.es.port", "9200") \
         .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
-        .config("spark.jars.packages", "org.elasticsearch:elasticsearch-spark-30_2.12:8.14.3") \
         .getOrCreate()
 
 def main():
