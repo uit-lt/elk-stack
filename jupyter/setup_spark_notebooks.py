@@ -182,7 +182,7 @@ def create_notebook_02():
                     "\n",
                     "# Create 5 new records\n",
                     "new_data = [\n",
-                    "    (24410114, \"Tran Tireu Thuan\", 30),\n",
+                    "    (24410114, \"Tran Trieu Thuan\", 30),\n",
                     "    (24410100, \"Nguyen Phuong Tan\", 30),\n",
                     "    (24410109, \"Nguyen Thi Thu Thao\", 28),\n",
                     "    (24410092, \"Huynh Duy Quoc\", 35),\n",
@@ -319,7 +319,7 @@ def create_notebook_03():
                 "source": [
                     "# Define updated records data\n",
                     "updated_records_data = [\n",
-                    "    (24410114, \"Tran Tireu Thuan updated\", 30),\n",
+                    "    (24410114, \"Tran Trieu Thuan updated\", 30),\n",
                     "    (24410100, \"Nguyen Phuong Tan updated\", 30),\n",
                     "    (24410109, \"Nguyen Thi Thu Thao updated\", 28),\n",
                     "    (24410092, \"Huynh Duy Quoc updated\", 35),\n",
