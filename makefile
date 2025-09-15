@@ -20,3 +20,8 @@ spark-delete:
 
 spark-query:
 	docker exec -it $(CONTAINER) bash -c "spark-submit --master spark://spark-master:7077 /opt/bitnami/spark/tests/crud/05_query_by_ids.py"
+
+spark-to-elastic:
+	docker exec $(CONTAINER) spark-submit \
+		--packages org.elasticsearch:elasticsearch-spark-30_2.12:8.12.2 \
+		/opt/bitnami/spark/tests/csv_to_elasticsearch.py
