@@ -4,6 +4,7 @@ from pyspark.sql.types import StructType, StructField, IntegerType, StringType
 import time
 import urllib.request
 import urllib.error
+import json
 
 # Create Spark Session
 spark = SparkSession.builder \
@@ -17,6 +18,12 @@ print(f"Application ID: {spark.sparkContext.applicationId}")
 delete_ids = [24410114, 24410100, 24410109, 24410092, 24410040]
 
 print(f"Records to delete: {delete_ids}")
+
+# SAFETY CHECK: Ensure we only have exactly 5 records to delete
+if len(delete_ids) != 5:
+    raise ValueError(f"❌ SAFETY CHECK FAILED: Expected exactly 5 records to delete, but got {len(delete_ids)}")
+
+print("✅ Safety check passed: Exactly 5 records specified for deletion")
 
 try:
     # Read current state before deletion
@@ -58,32 +65,57 @@ try:
         print(f"⚠️ Could not get total count: {count_error}")
         total_before = "unknown"
 
-    # Delete records using urllib (since Spark doesn't have native delete operation)
-    print("\n--- Deleting records via HTTP requests ---")
+    # Delete records using Elasticsearch bulk API (safer approach)
+    print("\n--- Deleting records using Bulk API ---")
+
+    # Prepare bulk delete payload
+    bulk_payload = ""
+    for record_id in delete_ids:
+        delete_action = {
+            "delete": {
+                "_index": "2_people_data_2k",
+                "_id": str(record_id)
+            }
+        }
+        bulk_payload += json.dumps(delete_action) + "\n"
+
+    print(f"🔍 Bulk delete payload:\n{bulk_payload}")
 
     deleted_count = 0
-    for record_id in delete_ids:
-        try:
-            # Use Python urllib to delete via Elasticsearch REST API
-            url = f"http://elasticsearch:9200/2_people_data_2k/_doc/{record_id}"
-            req = urllib.request.Request(url, method='DELETE')
+    try:
+        # Send bulk delete request
+        url = "http://elasticsearch:9200/_bulk"
+        req = urllib.request.Request(
+            url,
+            data=bulk_payload.encode('utf-8'),
+            method='POST'
+        )
+        req.add_header('Content-Type', 'application/x-ndjson')
 
-            try:
-                with urllib.request.urlopen(req, timeout=10) as response:
-                    if response.status in [200, 404]:  # 200 = deleted, 404 = not found (already deleted)
-                        print(f"✅ Deleted record {record_id}")
-                        deleted_count += 1
-                    else:
-                        print(f"❌ Failed to delete record {record_id} (status: {response.status})")
-            except urllib.error.HTTPError as e:
-                if e.code == 404:  # Not found (already deleted)
-                    print(f"✅ Record {record_id} already deleted or not found")
-                    deleted_count += 1
-                else:
-                    print(f"❌ HTTP error deleting record {record_id}: {e.code}")
+        with urllib.request.urlopen(req, timeout=30) as response:
+            response_data = response.read().decode('utf-8')
+            response_json = json.loads(response_data)
 
-        except Exception as delete_error:
-            print(f"❌ Error deleting record {record_id}: {delete_error}")
+            print(f"📄 Bulk API response status: {response.status}")
+
+            # Parse bulk response
+            if "items" in response_json:
+                for item in response_json["items"]:
+                    if "delete" in item:
+                        delete_result = item["delete"]
+                        doc_id = delete_result.get("_id")
+                        status = delete_result.get("status")
+
+                        if status in [200, 404]:  # 200 = deleted, 404 = not found
+                            print(f"✅ Successfully processed deletion for ID {doc_id} (status: {status})")
+                            deleted_count += 1
+                        else:
+                            print(f"❌ Failed to delete ID {doc_id} (status: {status})")
+            else:
+                print(f"⚠️ Unexpected response format: {response_data}")
+
+    except Exception as bulk_error:
+        print(f"❌ Bulk delete error: {bulk_error}")
 
     print(f"Successfully processed {deleted_count} deletion requests")
 
@@ -125,6 +157,14 @@ try:
         if isinstance(total_before, int):
             actual_deleted = total_before - total_after
             print(f"Actually deleted records: {actual_deleted}")
+
+            # SAFETY VERIFICATION: Make sure we didn't delete more than expected
+            if actual_deleted > 5:
+                print(f"⚠️ WARNING: More records deleted than expected! Expected ≤5, but {actual_deleted} were deleted")
+            elif actual_deleted == 0:
+                print("ℹ️ No records were actually deleted (they might not have existed)")
+            else:
+                print(f"✅ Safe deletion confirmed: {actual_deleted} records deleted (expected ≤5)")
 
     except Exception as verify_error:
         print(f"⚠️ Verification error: {verify_error}")
