@@ -49,7 +49,7 @@ def main():
             .format("org.elasticsearch.spark.sql") \
             .option("es.nodes", "elasticsearch") \
             .option("es.port", "9200") \
-            .option("es.resource", "2_people_data_2k") \
+            .option("es.resource", "2_people_data_2k_spark") \
             .option("es.write.operation", "index") \
             .option("es.mapping.id", "id") \
             .option("es.batch.size.bytes", "10mb") \
@@ -66,7 +66,7 @@ def main():
         .format("org.elasticsearch.spark.sql") \
         .option("es.nodes", "elasticsearch") \
         .option("es.port", "9200") \
-        .option("es.resource", "2_people_data_2k") \
+        .option("es.resource", "2_people_data_2k_spark") \
         .load()
 
     new_total = all_df.count()

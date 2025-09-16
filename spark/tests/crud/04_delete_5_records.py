@@ -33,7 +33,7 @@ try:
             .format("org.elasticsearch.spark.sql") \
             .option("es.nodes", "elasticsearch") \
             .option("es.port", "9200") \
-            .option("es.resource", "2_people_data_2k") \
+            .option("es.resource", "2_people_data_2k_spark") \
             .option("es.query", '{"terms":{"id":[24410114, 24410100, 24410109, 24410092, 24410040]}}') \
             .load()
 
@@ -55,7 +55,7 @@ try:
             .format("org.elasticsearch.spark.sql") \
             .option("es.nodes", "elasticsearch") \
             .option("es.port", "9200") \
-            .option("es.resource", "2_people_data_2k") \
+            .option("es.resource", "2_people_data_2k_spark") \
             .load()
 
         total_before = all_records_before.count()
@@ -73,7 +73,7 @@ try:
     for record_id in delete_ids:
         delete_action = {
             "delete": {
-                "_index": "2_people_data_2k",
+                "_index": "2_people_data_2k_spark",
                 "_id": str(record_id)
             }
         }
@@ -130,7 +130,7 @@ try:
             .format("org.elasticsearch.spark.sql") \
             .option("es.nodes", "elasticsearch") \
             .option("es.port", "9200") \
-            .option("es.resource", "2_people_data_2k") \
+            .option("es.resource", "2_people_data_2k_spark") \
             .option("es.query", '{"terms":{"id":[24410114, 24410100, 24410109, 24410092, 24410040]}}') \
             .load()
 
@@ -148,7 +148,7 @@ try:
             .format("org.elasticsearch.spark.sql") \
             .option("es.nodes", "elasticsearch") \
             .option("es.port", "9200") \
-            .option("es.resource", "2_people_data_2k") \
+            .option("es.resource", "2_people_data_2k_spark") \
             .load()
 
         total_after = all_records_after.count()

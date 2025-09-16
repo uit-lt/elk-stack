@@ -18,12 +18,12 @@ def main():
     print(f"Application ID: {spark.sparkContext.applicationId}")
 
     # Read all data from people index
-    print("Reading from 2_people_data_2k index...")
+    print("Reading from 2_people_data_2k_spark index...")
     people_df = spark.read \
         .format("org.elasticsearch.spark.sql") \
         .option("es.nodes", "elasticsearch") \
         .option("es.port", "9200") \
-        .option("es.resource", "2_people_data_2k") \
+        .option("es.resource", "2_people_data_2k_spark") \
         .load()
 
     # Show total count
