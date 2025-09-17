@@ -108,6 +108,7 @@ services:
     volumes:
       - ${PWD}/spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
       - ${PWD}/spark/tests:/opt/bitnami/spark/tests
+      - ${PWD}/data:/usr/share/logstash/data
     depends_on:
       - elasticsearch
     networks:
@@ -130,6 +131,7 @@ services:
     volumes:
       - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
       - ${PWD}/spark/tests:/opt/bitnami/spark/tests
+      - ${PWD}/data:/usr/share/logstash/data
     ports:
       - "${SPARK_WORKER_UI_PORT:-8081}:8081"
     networks:
@@ -152,6 +154,7 @@ services:
     volumes:
       - ./spark/spark-defaults.conf:/opt/bitnami/spark/conf/spark-defaults.conf
       - ${PWD}/spark/tests:/opt/bitnami/spark/tests
+      - ${PWD}/data:/usr/share/logstash/data
     ports:
       - "${SPARK_WORKER_UI_PORT_2:-8082}:8081"
     networks:
@@ -176,3 +179,15 @@ services:
       - spark-master
     networks:
       - elk
+    command: >
+      bash -c "
+        # Install required packages
+        pip install requests nbformat --quiet || true &&
+        # Create notebooks if they don't exist
+        cd /home/jovyan/work &&
+        if [ -f 'setup_spark_notebooks.py' ]; then
+          python setup_spark_notebooks.py || true
+        fi &&
+        # Start Jupyter
+        start-notebook.sh --NotebookApp.token='${JUPYTER_TOKEN:-spark}'
+      "
